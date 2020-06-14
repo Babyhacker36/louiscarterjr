@@ -1,0 +1,4675 @@
+@media only screen and (min-width : 1024px) {
+
+    .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -50px;
+        font-size: 6.200em;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 30px;
+        ;
+        font-size: 6.200em;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+
+    .aboutRow {
+        padding-top: 90px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.5em !important;
+    }
+
+    /* #tab-About img:nth-child(2) {
+        border: 1px solid red;
+    } */
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.5em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 10%;
+        margin-top: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+
+    }
+
+
+
+    /* skills section */
+    .dotParent {
+        margin-top: -90px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+    }
+
+    #exrow {
+        margin-top: -10px !important;
+    }
+
+    .resumeColLeft,
+    .resumeColLeft button {
+        font-size: .8em;
+
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgae in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRow span {
+        font-size: .9em;
+    }
+
+    .refRow p {
+        font-size: .6em;
+    }
+
+    /* github section  */
+
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow p {
+        font-size: 1em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 120px;
+        width: 120px;
+
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+
+     .contact-list span {
+        font-size:21px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+
+}
+
+
+@media only screen and (min-width : 1280px) {
+
+    .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 25px;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -50px;
+        font-size: 8.200em;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 30px;
+        font-size: 8.200em;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+    #webTitle,
+    #webTitle2,
+    #webTitle3,
+    #webTitle4,
+    #webTitle5,
+    #webTitle6,
+    #webTitle7,
+    #webTitle8 {
+        position: relative;
+        left: 50px;
+    }
+
+    #hoverBoxChild4,
+    #hoverBoxChild7,
+    #hoverBoxChild11,
+    #hoverBoxChild15 {
+        position: relative;
+        top: -290px;
+    }
+
+
+    .aboutRow {
+        padding-top: 20px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.5em !important;
+    }
+
+    /* #tab-About img:nth-child(2) {
+        border: 1px solid red;
+    } */
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.5em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 20%;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        text-align: center;
+
+    }
+
+
+
+    /* skills section */
+    .dotParent {
+        margin-top: -90px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+    }
+
+    #exrow {
+        margin-top: -10px !important;
+    }
+
+    .resumeColLeft,
+    .resumeColLeft button {
+        font-size: 1em;
+
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgage in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+       /* education section  */
+
+  .educationRow {
+        margin-top: -10px;
+       }
+
+       .educationRow p {
+           font-size: 1.1em;
+           line-height: 25px;
+       }
+
+       /* awards section  */ 
+       .liPromo ul li {
+           font-size: 1.6em;
+           line-height: 25px;
+       }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRow span {
+        font-size: .9em;
+    }
+
+    .refRow p {
+        font-size: .8em;
+        margin-bottom: -10px;;
+    }
+
+    /* github section  */
+.git3rdRow  {
+        padding-top: 50px;
+    }
+
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow p {
+        font-size: 1em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 120px;
+        width: 120px;
+
+    }
+
+    /* experiennce skills section */
+    .skillsList ul li {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+
+     .contact-list span {
+        font-size:28px;
+    }
+    footer p {
+        font-size: .6em;
+    }
+
+
+
+}
+
+@media only screen and (min-width : 1366px) {
+
+     .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 25px;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -50px;
+        font-size: 8.200em;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 30px;
+        font-size: 8.200em;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+    #webTitle,
+    #webTitle2,
+    #webTitle3,
+    #webTitle4,
+    #webTitle5,
+    #webTitle6,
+    #webTitle7,
+    #webTitle8 {
+        position: relative;
+        left: 50px;
+    }
+
+    #hoverBoxChild4,
+    #hoverBoxChild7,
+    #hoverBoxChild11,
+    #hoverBoxChild15 {
+        position: relative;
+        top: -290px;
+    }
+
+
+    .aboutRow {
+        padding-top: 20px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.5em !important;
+    }
+
+    /* #tab-About img:nth-child(2) {
+        border: 1px solid red;
+    } */
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.5em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 20%;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        text-align: center;
+
+    }
+
+
+
+    /* skills section */
+    .dotParent {
+        margin-top: -90px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+    }
+
+    /* experience section */
+    #exrow {
+        margin-top: -10px !important;
+    }
+
+    .resumeColLeft,
+    .resumeColLeft button {
+        font-size: .9em;
+
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgage in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+       /* education section  */
+
+  .educationRow {
+        margin-top: -10px;
+       }
+
+       .educationRow p {
+           font-size: 1.1em;
+           line-height: 25px;
+       }
+
+       /* awards section  */ 
+       .liPromo ul li {
+           font-size: 1.6em;
+           line-height: 25px;
+       }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRow span {
+        font-size: .9em;
+    }
+
+    .refRow p {
+        font-size: .8em;
+        margin-bottom: -10px;;
+    }
+
+    /* github section  */
+    
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow  {
+        padding-top: 20px;
+    }
+
+
+    .git3rdRow p {
+        font-size: 1.1em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 120px;
+        width: 120px;
+
+    }
+
+    /* experiennce skills section */
+    .skillsList ul li {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+     .contact-list span {
+        font-size:30px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width:1440px) {
+
+    .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 25px;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -50px;
+        font-size: 9.200em;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 30px;
+        font-size: 9.200em;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+    #webTitle,
+    #webTitle2,
+    #webTitle3,
+    #webTitle4,
+    #webTitle5,
+    #webTitle6,
+    #webTitle7,
+    #webTitle8 {
+        position: relative;
+        left: 50px;
+    }
+/* position of web titles  */
+    #hoverBoxChild4,
+    #hoverBoxChild7,
+    #hoverBoxChild11,
+    #hoverBoxChild15 {
+        position: relative;
+        top: -240px;
+    }
+
+   .divbox p {
+       font-size: 30px !important;
+   }
+/* 
+   .divbox u {
+      
+   } */
+
+
+    .aboutRow {
+        padding-top: 70px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.5em !important;
+    }
+
+     #aboutCol p {
+        font-size: 1.2em;
+    }
+
+ 
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.5em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 20%;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        text-align: center;
+
+    }
+
+
+
+    /* skills section */
+    .dotParent {
+        margin-top: -60px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+    }
+
+    /* experience section */
+    #exrow {
+        margin-top: 10px !important;
+    }
+
+    .resumeColLeft,
+    .resumeColLeft button {
+        font-size: 1.2em;
+
+    }
+
+    #exrow > #resumeColRight p {
+        font-size: 1.3em !important;
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgage in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+       /* education section  */
+
+  .educationRow {
+        margin-top: -10px;
+       }
+
+       .educationRow p {
+           font-size: 1.1em;
+           line-height: 25px;
+       }
+
+       /* awards section  */ 
+       .liPromo ul li {
+           font-size: 1.6em;
+           line-height: 25px;
+       }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRow span {
+        font-size: .9em;
+    }
+
+    .refRow p {
+        font-size: 1em;
+        margin-bottom: -10px;;
+    }
+
+    /* github section  */
+    
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow  {
+        padding-top: 50px;
+    }
+
+
+    .git3rdRow p {
+        font-size: 1.2em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 120px;
+        width: 120px;
+
+    }
+
+    /* experiennce skills section */
+
+      .secondRowSkills  {
+       padding-top: 40px;
+    }
+    .skillsList ul li {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+
+    .contact-list span {
+        font-size:30px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+
+
+}
+
+
+@media only screen and (min-width : 1600px) {
+
+    .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 26px;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -50px;
+        font-size: 10.200em;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 30px;
+        font-size: 10.200em;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+    #webTitle,
+    #webTitle2,
+    #webTitle3,
+    #webTitle4,
+    #webTitle5,
+    #webTitle6,
+    #webTitle7,
+    #webTitle8 {
+        position: relative;
+        left: 50px;
+    }
+/* position of web titles  */
+    #hoverBoxChild4,
+    #hoverBoxChild7,
+    #hoverBoxChild11,
+    #hoverBoxChild15 {
+        position: relative;
+        top: -240px;
+    }
+
+   .divbox p {
+       font-size: 30px !important;
+   }
+/* 
+   .divbox u {
+      
+   } */
+
+
+    .aboutRow {
+        padding-top: 70px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.5em !important;
+    }
+
+     #aboutCol p {
+        font-size: 1.2em;
+    }
+
+ 
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.5em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 26%;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        text-align: center;
+
+    }
+
+
+
+    /* skills section */
+    .dotParent {
+        margin-top: -60px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+    }
+
+    /* experience section */
+    .panel span {
+        font-size: 20px;
+    }
+
+    #exrow {
+        margin-top: 10px !important;
+    }
+
+    .resumeColLeft {
+        line-height: 60px;
+
+    }
+
+    .resumeColLeft,
+    .resumeColLeft button {
+        font-size: 1.2em;
+
+    }
+
+    #exrow > #resumeColRight p {
+        font-size: 1.5em !important;
+        
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgage in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+       /* education section  */
+
+  .educationRow {
+        margin-top: 30px;
+       }
+
+       .educationRow p {
+           font-size: 1.6em;
+           line-height: 30px;
+       }
+
+       /* awards section  */ 
+       .liPromo ul li {
+           font-size: 1.9em;
+           line-height: 35px;
+       }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRow span {
+        font-size: .9em;
+    }
+
+    .refRow p {
+        font-size: 1em;
+        margin-bottom: -10px;;
+    }
+
+    /* github section  */
+    
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow  {
+        padding-top: 50px;
+    }
+
+
+    .git3rdRow p {
+        font-size: 1.2em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 120px;
+        width: 120px;
+
+    }
+
+    /* experiennce skills section */
+
+      .secondRowSkills  {
+       padding-top: 40px;
+    }
+    .skillsList ul li {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+
+    .contact-list span {
+        font-size:30px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width : 1680px) {
+
+   .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 26px;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -50px;
+        font-size: 11.200em;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 30px;
+        font-size: 11.200em;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+    #webTitle,
+    #webTitle2,
+    #webTitle3,
+    #webTitle4,
+    #webTitle5,
+    #webTitle6,
+    #webTitle7,
+    #webTitle8 {
+        position: relative;
+        left: 50px;
+    }
+/* position of web titles  */
+    #hoverBoxChild4,
+    #hoverBoxChild7,
+    #hoverBoxChild11,
+    #hoverBoxChild15 {
+        position: relative;
+        top: -240px;
+    }
+
+   .divbox p {
+       font-size: 30px !important;
+   }
+/* 
+   .divbox u {
+      
+   } */
+
+
+    .aboutRow {
+        padding-top: 70px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.5em !important;
+    }
+
+     #aboutCol p {
+        font-size: 1.2em;
+    }
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.5em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 26%;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        text-align: center;
+
+    }
+
+
+
+    /* skills section */
+    .dotParent {
+        margin-top: -60px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+    }
+
+    /* experience section */
+    .panel span {
+        font-size: 20px;
+    }
+
+    #exrow {
+        margin-top: 60px !important;
+    }
+
+    .resumeColLeft p {
+        line-height: 25px;
+
+    }
+
+    .resumeColLeft,
+    .resumeColLeft button {
+        font-size: 1.3em;
+
+    }
+
+    #exrow > #resumeColRight p {
+        font-size: 1.5em !important;
+        
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgage in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+       /* education section  */
+
+  .educationRow {
+        margin-top: 70px;
+       }
+
+       .educationRow p {
+           font-size: 1.6em;
+           line-height: 30px;
+       }
+
+       /* awards section  */ 
+       .liPromo ul li {
+           font-size: 1.9em;
+           line-height: 45px;
+       }
+
+       .skillsSection p {
+           line-height: 50px;
+       }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRowParent {
+        padding-top: 40px;
+    }
+
+    .refRow span {
+        font-size: 1.2em;
+    }
+
+    .refRow p {
+        font-size: 1.1em;
+        margin-bottom: -10px;;
+    }
+
+    /* github section  */
+    
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow  {
+        padding-top: 150px;
+    }
+
+
+    .git3rdRow p {
+        font-size: 1.3em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 170px;
+        width: 170px;
+
+    }
+
+    /* experiennce skills section */
+
+      .secondRowSkills  {
+       padding-top: 70px;
+    }
+    .skillsList ul li {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+
+    .contact-list span {
+        font-size:30px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+
+}
+
+
+
+@media only screen and (min-width : 1920px) {
+
+   .resumeWrapMobile,
+    #smallForm {
+        display: none;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 22px !important;
+    }
+
+    .contact {
+        margin-top: -40px;
+    }
+
+    #slideNav {
+        margin-left: 30px;
+        z-index: 99;
+    }
+
+    .slideMenuLeftimage img {
+        width: 100%;
+        z-index: 3;
+    }
+
+    .slideMenuLeftimage {
+        z-index: 3;
+    }
+
+    #timehacker {
+        margin-left: 100px;
+    }
+
+    #name {
+        position: relative;
+        left: -70px;
+        font-size: 10.200em !important;
+    }
+
+    #nameLast {
+        position: relative;
+        left: 70px !important;
+        font-size: 10.200em !important;
+    }
+
+    #hpLeftCol img {
+        top: 2% !important;
+        width: 70% !important;
+        height: 85% !important;
+        left: 65% !important;
+    }
+
+    #logo {
+        height: 150px;
+        width: 150px;
+
+    }
+    #logoInvert img {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 320px;
+    }
+
+    #sdivLeft,
+    #sdivRight {
+        height: 100vh;
+    }
+
+    #number p {
+        position: relative;
+        top: 559px;
+    }
+
+    #webTitle,
+    #webTitle2,
+    #webTitle3,
+    #webTitle4,
+    #webTitle5,
+    #webTitle6,
+    #webTitle7,
+    #webTitle8 {
+        position: relative;
+        left: 0px;
+    }
+/* position of web titles  */
+    #hoverBoxChild4,
+    #hoverBoxChild7,
+    #hoverBoxChild11,
+    #hoverBoxChild15 {
+        position: relative;
+        top: 40px;
+    }
+
+   .divbox p {
+       font-size: 28px !important;
+   }
+/* 
+   .divbox u {
+      
+   } */
+
+
+    .aboutRow {
+        padding-top: 70px;
+        padding-bottom: 300px;
+    }
+
+
+    #aboutCol h2 {
+        font-size: 1.7em !important;
+    }
+
+     #aboutCol p {
+        font-size: 1.2em;
+    }
+
+
+    .aboutPics {
+        height: 400px;
+    }
+
+    #tagline {
+
+        width: 250px;
+        font-size: 1.7em;
+        line-height: 40px;
+        height: 30px;
+        position: relative;
+        top: 0%;
+        left: 30% !important;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        text-align: center;
+
+    }
+
+#tagline:before {
+  left: -20px;
+}
+
+#tagline:after {
+  right: -20px; 
+}
+
+    /* skills section */
+    .dotParent {
+        margin-top: -50px;
+    }
+
+    /* resume section  */
+
+    /* experience page  */
+    #tab-Resume {
+        margin-top: -40px;
+    }
+
+    /* title image */
+    .resumeTitle {
+        margin-top: 0px;
+    }
+
+    .viewAll {
+      
+     margin-top: 0px !important;
+    }
+
+    /* experience section */
+    .panel span {
+        font-size: 18px;
+    }
+
+    .panel__zoom 
+
+    #exrow {
+        margin-top: -200px !important;
+    }
+
+    .resumeColLeft p {
+        line-height: 30px;
+        font-size: .8em !important;
+
+    }
+
+
+    .resumeColLeft button {
+        font-size: 1em !important;
+
+    }
+
+    #exrow > #resumeColRight p {
+        font-size: 1.2em !important;
+        line-height: 30px;
+        
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 5px;
+    }
+
+
+
+    /* my imgage in experience section */
+    .louPort {
+        position: relative;
+        left: 15%;
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+
+    /* experience section bottm navs */
+    .js-down {
+        position: relative;
+        bottom: 40px !important;
+    }
+
+       /* education section  */
+
+  .educationRow {
+        margin-top: 70px;
+       }
+
+       .educationRow p {
+           font-size: 1.6em !important;
+           line-height: 50px;
+       }
+
+       /* awards section  */ 
+       .liPromo ul li {
+           font-size: 1.5em !important;
+           
+           line-height: 50px;
+       }
+
+       .skillsSection p {
+           line-height: 50px;
+           font-size: 20px !important;
+       }
+
+    /* experience section references section follow me nav  */
+
+    .followMe_panel {
+        margin-left: 70px;
+    }
+
+    .refRowParent {
+        padding-top: 40px;
+    }
+
+    .refRow span {
+        font-size: 1.1em;
+    }
+
+    .refRow p {
+        font-size: 1em;
+        margin-bottom: 10px;;
+    }
+
+    /* github section  */
+    
+    .git2ndRow button {
+        font-size: 1.2em
+    }
+
+    .git3rdRow  {
+        padding-top: 100px;
+    }
+
+
+    .git3rdRow p {
+        font-size: 1.1em !important;
+    }
+
+    .git3rdRow img {
+        margin-top: -30px;
+        height: 170px;
+        width: 170px;
+
+    }
+
+    /* experiennce skills section */
+
+      .secondRowSkills  {
+       padding-top: 70px;
+    }
+    .skillsList ul li {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    /* contact section */
+
+    #tab-Contact {
+        padding-top: 50px;
+    }
+
+    .contactLeft {
+        margin-top: -20px;
+    }
+
+    .contact-list i {
+        font-size: 30px
+    }
+
+    .contact-list span {
+        font-size:30px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width : 2560px) {
+
+    #name {
+        font-size: 8.888em;
+    }
+
+    #nameLast {
+        left: 37.5%;
+        font-size: 8.888em;
+    }
+
+    #hpLeftCol img {
+        top: 5% !important;
+    }
+
+    #number u,
+    #number2 u {
+        font-size: 1.5em;
+
+    }
+
+    #webTitle2 p,
+    #webTitle p {
+        font-size: 50px;
+        margin-right: 130px;
+
+
+    }
+
+    #number p u {
+        position: relative;
+
+        top: 210px;
+
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 2.7em !important;
+        padding-right: 10px;
+    }
+
+    .panel__zoom {
+        margin-top: -4.3em !important;
+        font-size: .8em;
+    }
+
+    /* specific formatting */
+    #name,
+    #nameLast {
+        font-size: 12em;
+    }
+
+    .social {
+        position: fixed;
+        top: 41%;
+        z-index: 3;
+    }
+
+    #logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    #bar1 {
+        width: 35px;
+        height: 6px;
+
+    }
+
+    #bar2 {
+        width: 45px;
+        height: 6px;
+
+    }
+
+    #bar3 {
+        width: 35px;
+        height: 6px;
+    }
+
+
+
+    .aboutPics {
+        width: 75%;
+        height: 35em !important;
+    }
+
+
+    #aboutCol h2 {
+
+        font-size: 3.1em;
+
+    }
+
+    #aboutCol p {
+
+        font-size: 1.7em;
+
+    }
+
+    #tagline {
+        font-size: 2.8em;
+        color: #000;
+        width: 500px;
+        margin-bottom: 10px;
+        left: 15%;
+    }
+
+    #tab-Resume {
+        font-size: 2em;
+    }
+
+    .et-slide p {
+        line-height: 1.6em;
+        margin-top: .2em;
+
+    }
+
+    #resumeColRight {
+
+        font-size: .8em;
+    }
+
+    .resumeColLeft button {
+        margin-bottom: 20px;
+        background-color: #000;
+        color: #00ffff;
+        font-size: .9em;
+        border: 1px solid #00ffff;
+        transition: all 0.5s;
+        border: 2px solid #00ffff;
+    }
+
+    .resumeColLeft button:hover {
+
+        font-size: .9em;
+        border: 3px solid #00ffff;
+    }
+
+    /* right side */
+    /* experience */
+    .louPort {
+
+        width: 55%;
+        height: 65%;
+        left: 15%;
+        border: 3px solid #00ffff;
+    }
+
+    .js-down {
+        margin-bottom: -1.8em;
+    }
+
+    /* education */
+    .viewAllEd {
+        margin-top: -85px !important;
+    }
+
+    .educationRow {
+        font-size: 1.4em;
+    }
+
+    /* awards */
+    #resumeColRight ul li {
+        font-size: 1.3em !important;
+        line-height: 1.9em;
+    }
+
+    /* references */
+
+    .resumeWrap p,
+    .resumeWrap span {
+        font-size: .8em;
+    }
+
+    .followMe_panel {
+
+        margin-left: 2.3em;
+    }
+
+    #rcReferences {
+        width: 230px !important;
+        height: 230px;
+    }
+
+    /* viewl all references section */
+    .refView {
+        margin-bottom: -5em !important;
+    }
+
+    /* follow me sections icons */
+
+    .resumeWrapfollowMe i {
+        font-size: 100px;
+        padding: 50px 0;
+    }
+
+    .resumeWrapfollowMe ul li a {
+        height: 200px;
+        width: 200px;
+    }
+
+    .nav_contact {
+        font-size: 1em;
+    }
+
+    .nav_contact:hover {
+        font-size: 1em;
+        background-color: #000;
+        color: #00ffff;
+    }
+
+    .git3rdRow {
+        font-size: 1em;
+    }
+
+    .git3rdRow img {
+        width: 350px;
+        height: 350px
+    }
+
+    .gitDown {
+        position: relative;
+        margin-bottom: 1em;
+    }
+
+
+
+
+    /* contact section */
+    #tab-Contact {
+        background-color: #ffffff;
+        font: 300px 18px 'Lato', sans-serif;
+    }
+
+    .place,
+    .phone,
+    .gmail {
+        background-color: #ffffff;
+        font-size: .6em;
+
+    }
+
+    footer p {
+        font-size: .8em;
+    }
+}
+
+
+
+/* hide the navigation and the name brand on all small and medium devices */
+
+@media only screen and (max-width:1023px) {
+
+    #name {
+        display: none;
+    }
+
+    #nameLast {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+}
+
+
+
+
+/* @media only screen and (max-width:1024px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 95%;
+        width: 600%;
+        left: 270px;
+        top: 1%;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 21px;
+        padding-right: 10px;
+    }
+
+    #socialMedia {
+        display: none;
+    }
+
+} */
+
+/* Hide the horizontal slider on small screens */
+
+@media only screen and (max-width:1023px) {
+
+
+    #horizontalScroller {
+        display: none;
+    }
+
+    #slideButtonL {
+        display: none;
+    }
+
+    #slideButtonR {
+        display: none;
+    }
+
+    .smallSlider {
+        background-color: #000;
+        color: white;
+        width: 100%;
+        /* text-align: left; */
+        margin: 0;
+        height: 100vh;
+
+
+    }
+
+    #sliderRow {
+        background-color: #000;
+        height: 30%
+    }
+
+    /* column alignment and text formating */
+
+    .slSmallR {
+        text-align: left;
+        position: relative;
+
+    }
+
+
+    .slSmallR>p:nth-child(1) {
+        color: red;
+        font-size: 22px;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 125px;
+        left: 30px;
+    }
+
+    .slSmallR>p:nth-child(2) {
+        color: #fff;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 40px;
+        left: 30px;
+
+
+    }
+
+    .slSmallR>p:nth-child(3) {
+        color: red;
+        font-size: 18px;
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+
+    }
+
+
+
+
+    #imageSL1 {
+        background-image: url("../img/webimg/slidePics/gray.jpg");
+        background-size: 100% 100%;
+
+
+    }
+
+
+    #imageSL2 {
+        background-image: url("../img/webimg/slidePics/pink.jpeg");
+        background-size: 100% 100%;
+
+    }
+
+    #imageSL3 {
+        background-image: url("../img/webimg/slidePics/blue.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    #imageSL4 {
+        background-image: url("../img/webimg/slidePics/orange.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    #imageSL5 {
+        background-image: url("../img/webimg/slidePics/black.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    #imageSL6 {
+        background-image: url("../img/webimg/slidePics/red.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    #imageSL7 {
+        background-image: url("../img/webimg/slidePics/purple.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    #imageSL8 {
+        background-image: url("../img/webimg/slidePics/yellow.jpg");
+        background-size: 100% 100%;
+
+    }
+
+
+}
+
+@media only screen and (min-width:1024px) {
+    .smallSlider {
+        display: none;
+    }
+
+
+}
+
+
+
+/* medium size devices -ipads */
+
+@media only screen and (max-width:977px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 90%;
+        width: 600%;
+        left: 270px;
+        top: 0%;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 30px;
+    }
+}
+
+/* kindle fire */
+
+@media only screen and (max-width:800px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 95%;
+        width: 550%;
+        left: 200px;
+        top: 0%;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 25px;
+    }
+
+    #number u,
+    #number2 u {
+
+        font-size: 24px;
+        margin-left: -45px;
+    }
+
+    #webTitle2 p,
+    #webTitle p {
+        font-size: 24px;
+        margin-right: 65px;
+
+    }
+
+    #number p {
+        position: relative;
+        top: 518px;
+
+    }
+}
+
+/* ipad and ipad mini */
+@media only screen and (max-width:768px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 90%;
+        width: 550%;
+        left: 200px;
+        top: 0;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 19px;
+
+    }
+}
+
+
+/* Media quiery small devices */
+
+@media only screen and (max-width: 480px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 75%;
+        width: 350px;
+        left: 80px;
+        top: 5%;
+    }
+
+    #menuToggle {
+        margin-right: -25px;
+        color: red;
+    }
+
+
+
+    .et-hero-tabs-container a {
+        font-size: 12px !important;
+        padding-left: 2px;
+
+    }
+
+    /* mobile for all here */
+    .slideMenuRight {
+        margin-left: 10px;
+        padding: 20;
+        height: 0%
+    }
+
+    .slideMenuLeft {
+
+        padding: 20;
+    }
+
+    #slideNav .nav-link {
+        font-family: "Lucida Console";
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    #topRow {
+        padding-top: 10px;
+        margin-bottom: 15px;
+        height: 10%
+    }
+
+    #logoDiv img {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: -60px;
+    }
+
+    #divText {
+        display: none;
+    }
+
+    #horizontalScroller {
+        width: 800%;
+    }
+
+    #slideButtonL {
+        position: absolute;
+        left: 5px;
+    }
+
+    #slideButtonR {
+        position: absolute;
+        right: 5px;
+    }
+
+    #divbox {
+        visibility: hidden;
+    }
+
+
+    /* small slider sizing elements */
+
+    .slSmallR>p:nth-child(1) {
+        color: #00ffff;
+        font-size: 18px;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 55px;
+        left: 10px;
+    }
+
+    .slSmallR>p:nth-child(2) {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+
+
+    }
+
+    .slSmallR>p:nth-child(3) {
+        color: #00ffff;
+        font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+
+    }
+
+    /* About section */
+    .social {
+        display: none;
+    }
+
+
+    #tab-Work {
+        /* margin-bottom: 450px; */
+        height: 100%;
+        /* margin-bottom: -420px; */
+        /* height: 900px; */
+    }
+
+    .aboutRow {
+        margin-top: -100px;
+    }
+
+    #tab-About {
+        background-image: none;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+
+    .aboutPics {
+        width: 100%;
+        height: 18em !important;
+        margin-left: -11px;
+    }
+
+    #aboutCol {
+
+        width: 100%;
+        padding: 5px;
+
+    }
+
+
+    #aboutCol h2 {
+
+        font-size: 2em;
+        margin-top: -30px;
+    }
+
+    #aboutCol p {
+
+        font-size: 1em;
+
+    }
+
+    #tagline {
+        font-size: 1.7em;
+        color: #000;
+        width: 90%;
+        margin-bottom: 10px;
+        left: 5%;
+    }
+
+
+    #tagline:before {
+        content: '[';
+        position: absolute;
+        left: -15px;
+        top: -3px;
+        line-height: 40px;
+    }
+
+    #tagline:after {
+        content: ']';
+        position: absolute;
+        right: -15px;
+        top: -3px;
+        line-height: 40px;
+
+    }
+
+    #tagline:after,
+    #tagline:before {
+        color: rgb(100, 100, 100);
+        font-size: 42px;
+        animation-name: opacity;
+        animation-duration: 6s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+    }
+
+
+    #tab-Skills {
+        height: 170vh;
+
+    }
+
+    .tabBackground {
+        margin-top: -350px !important;
+    }
+
+    #tabMiddle {
+        width: 100vw;
+        margin-left: 30px;
+    }
+
+    #tabLeft {
+        display: none;
+    }
+
+    #tabRight {
+        display: none;
+    }
+
+    /* Resume section */
+
+    /* ================================================= */
+
+    /* mobile */
+
+
+    .site-wrap {
+        display: none;
+    }
+
+    #experiencenBtn,
+    #educationBtn {
+        background-color: #00ffff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #ExMobImg {
+        width: 90%;
+        margin-top: -120px;
+
+
+    }
+
+    #FEWD {
+        margin-top: -40px;
+    }
+
+    .resumeWrapMobile {
+        line-height: .9em;
+        padding-top: 10px;
+
+    }
+
+    .resumeWrapMobile p {
+        font-size: 11px;
+        color: #00ffff;
+        padding-top: 5px;
+        margin-top: 10px;
+
+    }
+
+    .resumeWrapMobile span {
+        font-size: 10px;
+        margin-top: -55px;
+    }
+
+    #experienceSection {
+        padding-top: 0px;
+    }
+
+
+
+
+    /* contact section */
+
+    #largeForm {
+        display: none;
+    }
+
+    .contactTitle {
+        width: 80%;
+        height: 60px;
+    }
+
+    .contact-list2 ul {
+        list-style-type: none;
+        border: none;
+
+
+    }
+
+    .contact-list2 li span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+
+    .contact-list2 i {
+        font-size: .6em;
+        display: inline;
+        margin-left: 10px;
+        border: none;
+        color: #aaa;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        font-size: 20px;
+
+    }
+
+    .social-media-list {
+        margin-top: 15px;
+    }
+
+    .social-media-list li {
+
+        height: 40px;
+        width: 40px;
+        line-height: 33px;
+    }
+
+
+    .social-media-list li:after {
+
+        width: 40px;
+        height: 40px;
+        line-height: 33px;
+
+    }
+
+    .social-media-list i {
+        font-size: 22px;
+    }
+
+    /* footer section */
+
+    footer {
+        font-size: .9em;
+        padding: 20px;
+    }
+
+}
+
+/* iphone 6/7/ 8 plus */
+@media only screen and (max-width: 414px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 75%;
+        width: 350px;
+        left: 80px;
+        top: 5%;
+    }
+
+    #menuToggle {
+        margin-right: -25px;
+        color: red;
+    }
+
+
+
+    .et-hero-tabs-container a {
+        font-size: 12px !important;
+        padding-left: 2px;
+
+    }
+
+    /* mobile for all here */
+    .slideMenuRight {
+        margin-left: 10px;
+        padding: 20;
+        height: 0%
+    }
+
+    .slideMenuLeft {
+
+        padding: 20;
+    }
+
+    #slideNav .nav-link {
+        font-family: "Lucida Console";
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    #topRow {
+        padding-top: 10px;
+        margin-bottom: 15px;
+        height: 10%
+    }
+
+    #logoDiv img {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: -60px;
+    }
+
+    #divText {
+        display: none;
+    }
+
+    #horizontalScroller {
+        width: 800%;
+    }
+
+    #slideButtonL {
+        position: absolute;
+        left: 5px;
+    }
+
+    #slideButtonR {
+        position: absolute;
+        right: 5px;
+    }
+
+    #divbox {
+        visibility: hidden;
+    }
+
+
+    /* small slider sizing elements */
+
+    .slSmallR>p:nth-child(1) {
+        color: #00ffff;
+        font-size: 18px;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 55px;
+        left: 10px;
+    }
+
+    .slSmallR>p:nth-child(2) {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+
+
+    }
+
+    .slSmallR>p:nth-child(3) {
+        color: #00ffff;
+        font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+
+    }
+
+    /* About section */
+    .social {
+        display: none;
+    }
+
+
+    #tab-Work {
+        /* margin-bottom: 450px; */
+        height: 100%;
+        /* margin-bottom: -420px; */
+        /* height: 900px; */
+    }
+
+    .aboutRow {
+        margin-top: -100px;
+    }
+
+    #tab-About {
+        background-image: none;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+
+    .aboutPics {
+        width: 100%;
+        height: 18em !important;
+        margin-left: -11px;
+    }
+
+    #aboutCol {
+
+        width: 100%;
+        padding: 5px;
+
+    }
+
+
+    #aboutCol h2 {
+
+        font-size: 2em;
+        margin-top: -30px;
+    }
+
+    #aboutCol p {
+
+        font-size: 1em;
+
+    }
+
+    #tagline {
+        font-size: 1.7em;
+        color: #000;
+        width: 90%;
+        margin-bottom: 10px;
+        left: 5%;
+    }
+
+
+    #tagline:before {
+        content: '[';
+        position: absolute;
+        left: -15px;
+        top: -3px;
+        line-height: 40px;
+    }
+
+    #tagline:after {
+        content: ']';
+        position: absolute;
+        right: -15px;
+        top: -3px;
+        line-height: 40px;
+
+    }
+
+    #tagline:after,
+    #tagline:before {
+        color: rgb(100, 100, 100);
+        font-size: 42px;
+        animation-name: opacity;
+        animation-duration: 6s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+    }
+
+
+    #tab-Skills {
+        height: 170vh;
+
+    }
+
+    .tabBackground {
+        margin-top: -350px !important;
+    }
+
+    #tabMiddle {
+        width: 100vw;
+        margin-left: 30px;
+    }
+
+    #tabLeft {
+        display: none;
+    }
+
+    #tabRight {
+        display: none;
+    }
+
+    /* Resume section */
+
+    /* ================================================= */
+
+    /* mobile */
+
+
+    .site-wrap {
+        display: none;
+    }
+
+    #experiencenBtn,
+    #educationBtn {
+        background-color: #00ffff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #ExMobImg {
+        width: 90%;
+        margin-top: -120px;
+
+
+    }
+
+    #FEWD {
+        margin-top: -40px;
+    }
+
+    .resumeWrapMobile {
+        line-height: .9em;
+        padding-top: 10px;
+
+    }
+
+    .resumeWrapMobile p {
+        font-size: 11px;
+        color: #00ffff;
+        padding-top: 5px;
+        margin-top: 10px;
+
+    }
+
+    .resumeWrapMobile span {
+        font-size: 10px;
+        margin-top: -55px;
+    }
+
+    #experienceSection {
+        padding-top: 0px;
+    }
+
+
+
+
+    /* contact section */
+
+    #largeForm {
+        display: none;
+    }
+
+    .contactTitle {
+        width: 80%;
+        height: 60px;
+    }
+
+    .contact-list2 ul {
+        list-style-type: none;
+        border: none;
+
+
+    }
+
+    .contact-list2 li span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+
+    .contact-list2 i {
+        font-size: .6em;
+        display: inline;
+        margin-left: 10px;
+        border: none;
+        color: #aaa;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        font-size: 20px;
+
+    }
+
+    .social-media-list {
+        margin-top: 15px;
+    }
+
+    .social-media-list li {
+
+        height: 40px;
+        width: 40px;
+        line-height: 33px;
+    }
+
+
+    .social-media-list li:after {
+
+        width: 40px;
+        height: 40px;
+        line-height: 33px;
+
+    }
+
+    .social-media-list i {
+        font-size: 22px;
+    }
+
+    /* footer section */
+
+    footer {
+        font-size: .9em;
+        padding: 20px;
+    }
+
+
+}
+
+/* Iphone 6 */
+@media only screen and (max-width: 375px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 75%;
+        width: 350px;
+        left: 80px;
+        top: 5%;
+    }
+
+
+
+    .et-hero-tabs-container a {
+        font-size: 12px !important;
+        padding-left: 2px;
+
+    }
+
+    /* mobile for all here */
+    .slideMenuRight {
+        margin-left: 10px;
+        padding: 20;
+        height: 0%
+    }
+
+    .slideMenuLeft {
+
+        padding: 20;
+    }
+
+    #slideNav .nav-link {
+        font-family: "Lucida Console";
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    #topRow {
+        padding-top: 10px;
+        margin-bottom: 15px;
+        height: 10%
+    }
+
+    #logoDiv img {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: -60px;
+    }
+
+    #divText {
+        display: none;
+    }
+
+    #horizontalScroller {
+        width: 800%;
+    }
+
+    #slideButtonL {
+        position: absolute;
+        left: 5px;
+    }
+
+    #slideButtonR {
+        position: absolute;
+        right: 5px;
+    }
+
+    #divbox {
+        visibility: hidden;
+    }
+
+
+    /* small slider sizing elements */
+
+    .slSmallR>p:nth-child(1) {
+        color: #00ffff;
+        font-size: 18px;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 55px;
+        left: 10px;
+    }
+
+    .slSmallR>p:nth-child(2) {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+
+
+    }
+
+    .slSmallR>p:nth-child(3) {
+        color: #00ffff;
+        font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+
+    }
+
+    /* About section */
+    .social {
+        display: none;
+    }
+
+
+    #tab-Work {
+        /* margin-bottom: 450px; */
+        height: 100%;
+        /* margin-bottom: -420px; */
+        /* height: 900px; */
+    }
+
+    .aboutRow {
+        margin-top: -100px;
+    }
+
+    #tab-About {
+        background-image: none;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+
+    .aboutPics {
+        width: 100%;
+        height: 18em !important;
+        margin-left: -11px;
+    }
+
+    #aboutCol {
+
+        width: 100%;
+        padding: 5px;
+
+    }
+
+
+    #aboutCol h2 {
+
+        font-size: 2em;
+        margin-top: -30px;
+    }
+
+    #aboutCol p {
+
+        font-size: 1em;
+
+    }
+
+    #tagline {
+        font-size: 1.7em;
+        color: #000;
+        width: 90%;
+        margin-bottom: 10px;
+        left: 5%;
+    }
+
+
+    #tagline:before {
+        content: '[';
+        position: absolute;
+        left: -15px;
+        top: -3px;
+        line-height: 40px;
+    }
+
+    #tagline:after {
+        content: ']';
+        position: absolute;
+        right: -15px;
+        top: -3px;
+        line-height: 40px;
+
+    }
+
+    #tagline:after,
+    #tagline:before {
+        color: rgb(100, 100, 100);
+        font-size: 42px;
+        animation-name: opacity;
+        animation-duration: 6s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+    }
+
+
+    #tab-Skills {
+        height: 170vh;
+
+    }
+
+    .tabBackground {
+        margin-top: -350px !important;
+    }
+
+    #tabMiddle {
+        width: 100vw;
+        margin-left: 30px;
+    }
+
+    #tabLeft {
+        display: none;
+    }
+
+    #tabRight {
+        display: none;
+    }
+
+    /* Resume section */
+
+    /* ================================================= */
+
+    /* mobile */
+
+
+    .site-wrap {
+        display: none;
+    }
+
+    #experiencenBtn,
+    #educationBtn {
+        background-color: #00ffff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #ExMobImg {
+        width: 90%;
+        margin-top: -120px;
+
+
+    }
+
+    #FEWD {
+        margin-top: -40px;
+    }
+
+    .resumeWrapMobile {
+        line-height: .9em;
+        padding-top: 10px;
+
+    }
+
+    .resumeWrapMobile p {
+        font-size: 11px;
+        color: #00ffff;
+        padding-top: 5px;
+        margin-top: 10px;
+
+    }
+
+    .resumeWrapMobile span {
+        font-size: 10px;
+        margin-top: -55px;
+    }
+
+    #experienceSection {
+        padding-top: 0px;
+    }
+
+
+
+
+    /* contact section */
+
+    #largeForm {
+        display: none;
+    }
+
+    .contactTitle {
+        width: 80%;
+        height: 60px;
+    }
+
+    .contact-list2 ul {
+        list-style-type: none;
+        border: none;
+
+
+    }
+
+    .contact-list2 li span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+
+    .contact-list2 i {
+        font-size: .6em;
+        display: inline;
+        margin-left: 10px;
+        border: none;
+        color: #aaa;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        font-size: 20px;
+
+    }
+
+    .social-media-list {
+        margin-top: 15px;
+    }
+
+    .social-media-list li {
+
+        height: 40px;
+        width: 40px;
+        line-height: 33px;
+    }
+
+
+    .social-media-list li:after {
+
+        width: 40px;
+        height: 40px;
+        line-height: 33px;
+
+    }
+
+    .social-media-list i {
+        font-size: 22px;
+    }
+
+    /* footer section */
+
+    footer {
+        font-size: .9em;
+        padding: 20px;
+    }
+
+
+
+}
+
+/* Galaxy s5 */
+@media only screen and (max-width: 360px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 75%;
+        width: 350px;
+        left: 80px;
+        top: 5%;
+    }
+
+
+
+    .et-hero-tabs-container a {
+        font-size: 12px !important;
+        padding-left: 2px;
+
+    }
+
+    /* mobile for all here */
+    .slideMenuRight {
+        margin-left: 10px;
+        padding: 20;
+        height: 0%
+    }
+
+    .slideMenuLeft {
+
+        padding: 20;
+    }
+
+    #slideNav .nav-link {
+        font-family: "Lucida Console";
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    #topRow {
+        padding-top: 10px;
+        margin-bottom: 15px;
+        height: 10%
+    }
+
+    #logoDiv img {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: -60px;
+    }
+
+    #divText {
+        display: none;
+    }
+
+    #horizontalScroller {
+        width: 800%;
+    }
+
+    #slideButtonL {
+        position: absolute;
+        left: 5px;
+    }
+
+    #slideButtonR {
+        position: absolute;
+        right: 5px;
+    }
+
+    #divbox {
+        visibility: hidden;
+    }
+
+
+    /* small slider sizing elements */
+
+    .slSmallR>p:nth-child(1) {
+        color: #00ffff;
+        font-size: 18px;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 55px;
+        left: 10px;
+    }
+
+    .slSmallR>p:nth-child(2) {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+
+
+    }
+
+    .slSmallR>p:nth-child(3) {
+        color: #00ffff;
+        font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+
+    }
+
+    /* About section */
+    .social {
+        display: none;
+    }
+
+
+    #tab-Work {
+        /* margin-bottom: 450px; */
+        height: 100%;
+        /* margin-bottom: -420px; */
+        /* height: 900px; */
+    }
+
+    .aboutRow {
+        margin-top: -100px;
+    }
+
+    #tab-About {
+        background-image: none;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+
+    .aboutPics {
+        width: 100%;
+        height: 18em !important;
+    }
+
+    #aboutCol {
+
+        width: 100%;
+        padding: 5px;
+
+    }
+
+
+    #aboutCol h2 {
+
+        font-size: 2em;
+        margin-top: -30px;
+    }
+
+    #aboutCol p {
+
+        font-size: 1em;
+
+    }
+
+    #tagline {
+        font-size: 1.7em;
+        color: #000;
+        width: 90%;
+        margin-bottom: 10px;
+        left: 5%;
+    }
+
+
+    #tagline:before {
+        content: '[';
+        position: absolute;
+        left: -15px;
+        top: -3px;
+        line-height: 40px;
+    }
+
+    #tagline:after {
+        content: ']';
+        position: absolute;
+        right: -15px;
+        top: -3px;
+        line-height: 40px;
+
+    }
+
+    #tagline:after,
+    #tagline:before {
+        color: rgb(100, 100, 100);
+        font-size: 42px;
+        animation-name: opacity;
+        animation-duration: 6s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+    }
+
+
+    #tab-Skills {
+        height: 170vh;
+
+    }
+
+    .tabBackground {
+        margin-top: -350px !important;
+    }
+
+    #tabMiddle {
+        width: 100vw;
+        margin-left: 30px;
+    }
+
+    #tabLeft {
+        display: none;
+    }
+
+    #tabRight {
+        display: none;
+    }
+
+    /* Resume section */
+
+    /* ================================================= */
+
+    /* mobile */
+
+
+    .site-wrap {
+        display: none;
+    }
+
+    #experiencenBtn,
+    #educationBtn {
+        background-color: #00ffff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #ExMobImg {
+        width: 90%;
+        margin-top: -120px;
+
+
+    }
+
+    #FEWD {
+        margin-top: -40px;
+    }
+
+    .resumeWrapMobile {
+        line-height: .9em;
+
+    }
+
+    .resumeWrapMobile p {
+        font-size: 11px;
+        color: #00ffff;
+        padding-top: 5px;
+        margin-top: 10px;
+
+    }
+
+    .resumeWrapMobile span {
+        font-size: 10px;
+        margin-top: -55px;
+    }
+
+    #experienceSection {
+        padding-top: 0px;
+    }
+
+
+
+
+    /* contact section */
+
+    #largeForm {
+        display: none;
+    }
+
+    .contactTitle {
+        width: 80%;
+        height: 60px;
+    }
+
+    .contact-list2 ul {
+        list-style-type: none;
+        border: none;
+
+
+    }
+
+    .contact-list2 li span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+
+    .contact-list2 i {
+        font-size: .6em;
+        display: inline;
+        margin-left: 10px;
+        border: none;
+        color: #aaa;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        font-size: 20px;
+
+    }
+
+    .social-media-list {
+        margin-top: 15px;
+    }
+
+    .social-media-list li {
+
+        height: 40px;
+        width: 40px;
+        line-height: 33px;
+    }
+
+
+    .social-media-list li:after {
+
+        width: 40px;
+        height: 40px;
+        line-height: 33px;
+
+    }
+
+    .social-media-list i {
+        font-size: 22px;
+    }
+
+    /* footer section */
+
+    footer {
+        font-size: .9em;
+        padding: 20px;
+    }
+
+
+
+}
+
+/* Iphone 5 */
+@media only screen and (max-width: 320px) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 75%;
+        width: 350px;
+        left: 80px;
+        top: 5%;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 12px !important;
+        padding-left: 2px;
+
+    }
+
+    /* mobile for all here */
+    .slideMenuRight {
+        margin-left: 10px;
+        padding: 20;
+        height: 0%
+    }
+
+    .slideMenuLeft {
+
+        padding: 20;
+    }
+
+    #slideNav .nav-link {
+        font-family: "Lucida Console";
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    #topRow {
+        padding-top: 10px;
+        margin-bottom: 15px;
+        height: 10%
+    }
+
+    #logoDiv img {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: -60px;
+    }
+
+    #divText {
+        display: none;
+    }
+
+    #horizontalScroller {
+        width: 800%;
+    }
+
+    #slideButtonL {
+        position: absolute;
+        left: 5px;
+    }
+
+    #slideButtonR {
+        position: absolute;
+        right: 5px;
+    }
+
+    #divbox {
+        visibility: hidden;
+    }
+
+
+    /* small slider sizing elements */
+
+    .slSmallR>p:nth-child(1) {
+        color: #00ffff;
+        font-size: 18px;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 55px;
+        left: 10px;
+    }
+
+    .slSmallR>p:nth-child(2) {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+
+
+    }
+
+    .slSmallR>p:nth-child(3) {
+        color: #00ffff;
+        font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+
+    }
+
+    /* About section */
+    .social {
+        display: none;
+    }
+
+
+    #tab-Work {
+        /* margin-bottom: 450px; */
+        height: 100%;
+        /* margin-bottom: -420px; */
+        /* height: 900px; */
+    }
+
+    .aboutRow {
+        margin-top: -100px;
+    }
+
+    #tab-About {
+        background-image: none;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+
+    .aboutPics {
+        width: 100%;
+        height: 18em !important;
+    }
+
+    #aboutCol {
+
+        width: 100%;
+        padding: 5px;
+
+    }
+
+
+    #aboutCol h2 {
+
+        font-size: 2em;
+        margin-top: -30px;
+    }
+
+    #aboutCol p {
+
+        font-size: 1em;
+
+    }
+
+    #tagline {
+        font-size: 1.7em;
+        color: #000;
+        width: 90%;
+        margin-bottom: 10px;
+        left: 5%;
+    }
+
+
+    #tagline:before {
+        content: '[';
+        position: absolute;
+        left: -15px;
+        top: -3px;
+        line-height: 40px;
+    }
+
+    #tagline:after {
+        content: ']';
+        position: absolute;
+        right: -15px;
+        top: -3px;
+        line-height: 40px;
+
+    }
+
+    #tagline:after,
+    #tagline:before {
+        color: rgb(100, 100, 100);
+        font-size: 42px;
+        animation-name: opacity;
+        animation-duration: 6s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+    }
+
+
+    #tab-Skills {
+        height: 170vh;
+
+    }
+
+    .tabBackground {
+        margin-top: -350px !important;
+    }
+
+    #tabMiddle {
+        width: 100vw;
+        margin-left: 30px;
+    }
+
+    #tabLeft {
+        display: none;
+    }
+
+    #tabRight {
+        display: none;
+    }
+
+    /* Resume section */
+
+    /* ================================================= */
+
+    /* mobile */
+
+
+    .site-wrap {
+        display: none;
+    }
+
+    #experiencenBtn,
+    #educationBtn {
+        background-color: #00ffff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #ExMobImg {
+        width: 90%;
+        margin-top: -120px;
+
+
+    }
+
+    #FEWD {
+        margin-top: -40px;
+    }
+
+    .resumeWrapMobile {
+        line-height: .9em;
+
+    }
+
+    .resumeWrapMobile p {
+        font-size: 11px;
+        color: #00ffff;
+        padding-top: 5px;
+        margin-top: 10px;
+
+    }
+
+    .resumeWrapMobile span {
+        font-size: 10px;
+        margin-top: -55px;
+    }
+
+    #experienceSection {
+        padding-top: 0px;
+    }
+
+
+
+
+    /* contact section */
+
+    #largeForm {
+        display: none;
+    }
+
+    .contactTitle {
+        width: 80%;
+        height: 60px;
+    }
+
+    .contact-list2 ul {
+        list-style-type: none;
+        border: none;
+
+
+    }
+
+    .contact-list2 li span {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+
+    .contact-list2 i {
+        font-size: .6em;
+        display: inline;
+        margin-left: 10px;
+        border: none;
+        color: #aaa;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        font-size: 20px;
+
+    }
+
+    .social-media-list {
+        margin-top: 15px;
+    }
+
+    .social-media-list li {
+
+        height: 40px;
+        width: 40px;
+        line-height: 33px;
+    }
+
+
+    .social-media-list li:after {
+
+        width: 40px;
+        height: 40px;
+        line-height: 33px;
+
+    }
+
+    .social-media-list i {
+        font-size: 22px;
+    }
+
+    /* footer section */
+
+    footer {
+        font-size: .9em;
+        padding: 20px;
+    }
+
+}
+
+
+/* media quieries small devices with landscape */
+/* orientation landscape ipad large */
+
+/* @media only screen and (max-width:1366px) and (min-height: 1024px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 85%;
+        width: 275px;
+        left: 265px;
+        top: -35px;
+    }
+
+    #socialMedia {
+        display: none;
+    }
+
+
+
+    #number p {
+        position: relative;
+        top: 388px !important;
+
+
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 22px;
+        padding-right: 10px;
+    }
+
+
+
+    #number u,
+    #number2 u {
+
+        font-size: 24px;
+        margin-left: -45px;
+
+
+
+    }
+
+    #webTitle2 p,
+    #webTitle p {
+        font-size: 24px;
+        margin-right: 65px;
+
+
+    }
+
+}
+
+@media only screen and (max-width:1280px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        transform: translate(10px, 65px);
+        height: 80%;
+        width: 575px;
+        left: 370px;
+        margin-top: 15px;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 30px;
+
+    }
+
+    #webTitle2 p,
+    #webTitle p {
+        font-size: 24px;
+        margin-right: 65px;
+
+
+    }
+
+}
+
+@media only screen and (max-width:1024px) and (min-height: 768px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        height: 85%;
+        width: 80%;
+        left: 60%;
+        top: 0% !important;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 24px;
+        padding-left: 9px;
+    }
+
+
+
+    #socialMedia {
+        display: none;
+    }
+
+    #smTable {
+
+        margin-right: 170px;
+    }
+
+    #number p {
+        position: relative;
+        top: 265px !important;
+
+
+
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 18px !important;
+        padding-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width:823px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        height: 80%;
+        width: 80%;
+        left: 60%;
+        top: -12% !important;
+    }
+
+
+    .et-hero-tabs-container a {
+        font-size: 19px;
+        padding-left: 9px;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+
+
+    .slideMenuRight {
+        margin-left: 30px;
+    }
+
+    #logoMenu {
+        height: 60px;
+        width: 70px;
+        margin-left: -50px;
+
+    }
+
+    #smTable {
+
+        margin-right: 70px;
+    }
+
+    #smTable td {
+
+        height: 10px;
+        line-height: 0;
+        font-size: 15px;
+
+
+    }
+
+    #smTable span {
+        margin: 0;
+        height: 10px;
+        font-size: 15px;
+        line-height: 0;
+    }
+
+    #smTable img {
+        margin: 0;
+        height: 25px;
+
+
+    }
+
+    ul>li>a {
+
+        font-size: 20px !important;
+        margin-top: -5px;
+    }
+
+}
+
+@media only screen and (max-width:812px) and (orientation: landscape) {
+
+
+    #hpLeftCol img {
+        position: absolute;
+        height: 75%;
+        width: 80%;
+        left: 60%;
+        top: -12% !important;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 17px;
+        padding-left: 9px;
+    }
+
+
+    #logoMenu {
+        height: 60px;
+        width: 70px;
+        margin-left: -50px;
+
+    }
+
+    #smTable td {
+
+        height: 10px;
+        line-height: 0;
+        font-size: 15px;
+    }
+
+    #smTable span {
+        margin: 0;
+        height: 10px;
+        font-size: 15px;
+        line-height: 0;
+    }
+
+    #smTable img {
+        margin: 0;
+        height: 25px;
+    }
+
+    ul>li>a {
+
+        font-size: 20px !important;
+        margin-top: -5px;
+    }
+
+    #socialMedia {
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen and (max-width:736px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        height: 75%;
+        width: 80%;
+        left: 60%;
+        top: -8% !important;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+
+
+    .slideMenuRight {
+        margin-left: 30px;
+    }
+
+    #logoMenu {
+        height: 60px;
+        width: 70px;
+        margin-left: -50px;
+
+    }
+
+    #smTable {
+        margin-right: 70px;
+    }
+
+    #smTable td {
+
+        height: 10px;
+        line-height: 0;
+        font-size: 15px;
+    }
+
+    #smTable span {
+        margin: 0;
+        height: 10px;
+        font-size: 15px;
+        line-height: 0;
+    }
+
+    #smTable img {
+        margin: 0;
+        height: 25px;
+    }
+
+    ul>li>a {
+
+        font-size: 20px !important;
+        margin-top: -5px;
+
+    }
+
+}
+
+@media only screen and (max-width:667px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        height: 75%;
+        width: 80%;
+        left: 60%;
+        top: -12% !important;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    .slideMenuRight {
+        margin-left: 30px;
+    }
+
+    #logoMenu {
+        height: 60px;
+        width: 70px;
+        margin-left: -50px;
+
+    }
+
+    #smTable {
+
+        margin-right: 70px;
+    }
+
+    #smTable td {
+
+        height: 10px;
+        line-height: 0;
+        font-size: 15px;
+    }
+
+    #smTable span {
+        margin: 0;
+        height: 10px;
+        font-size: 15px;
+        line-height: 0;
+    }
+
+    #smTable img {
+        margin: 0;
+        height: 25px;
+
+
+    }
+
+    ul>li>a {
+
+        font-size: 20px !important;
+        margin-top: -5px;
+
+    }
+
+}
+
+@media only screen and (max-width:568px) and (orientation: landscape) {
+
+    #hpLeftCol img {
+        position: absolute;
+        height: 70%;
+        width: 80%;
+        left: 60%;
+        top: -15% !important;
+    }
+
+    .et-hero-tabs-container a {
+        font-size: 17px;
+        padding-left: 2px;
+
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    .slideMenuRight {
+        margin-left: 30px;
+    }
+
+
+    #logoMenu {
+        height: 60px;
+        width: 70px;
+        margin-left: -50px;
+
+    }
+
+    #smTable {
+
+        margin-right: 70px;
+    }
+
+    #smTable td {
+
+        height: 10px;
+        line-height: 0;
+        font-size: 15px;
+        margin-top: -10px;
+
+    }
+
+    #smTable span {
+        margin: 0;
+        height: 10px;
+        font-size: 15px;
+        line-height: 0;
+    }
+
+    #smTable img {
+        margin: 0;
+        height: 25px;
+
+
+    }
+
+    ul>li>a {
+
+        font-size: 20px !important;
+        margin-top: -5px;
+
+    }
+
+} */
+
+/* ipads only */
+/* @media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    #divText {
+        display: visible;
+
+    }
+
+    #mobileMenu {
+        display: visible;
+
+    }
+
+} */

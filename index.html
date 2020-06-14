@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Louis Carter" />
+    <title>Louis Carter</title>
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <!-- Main styling -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- cursor -->
+    <link rel=" stylesheet" href="./css/mainCursor.css" />
+
+    <!-- media queries -->
+    <link rel=" stylesheet" href="./css/mediaQ.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet" />
+
+    <!-- Snippets image hover -->
+    <link rel=" stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      crossorigin="anonymous" />
+
+    <!-- less compile -->
+    <link rel=" stylesheet" href="./less/resumestyle.css" />
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" crossorigin="anonymous">
+    </script> -->
+
+    <!-- font awesome\ -->
+    <script src="https://kit.fontawesome.com/0b8b2323ef.js" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+
+
+
+
+
+
+  <body>
+    <!-- reopen this code here -->
+
+    <!-- Pre Load Page -->
+    <!-- <div class="container-fluid" id="loadingPage">
+
+     <div class="msg" id="redBtn" >Searching...</div>
+     <div class="msgGranted"  id="greenBtn">Access Granted</div>
+<div id="console">
+</div>
+    </div> -->
+
+
+
+
+
+
+    <!-- =================== slide out menu section ======================= -->
+
+
+    <div id="mainPageBody">
+      <div id="slideMenuCanvas">
+
+        <!-- top row -->
+
+        <div class="row" id="topRow">
+          <div class="col-6" id="logoDiv">
+            <img src="./img/webimg/lclogo1.png" alt="Responsive image" id="logoMenu" />
+          </div>
+
+          <div class="col-6" id="toggleDiv">
+            <div class="change" onclick="closeMenu2(this)" id="menuToggle2">
+              <div id="bar1"></div>
+              <div id="bar2"></div>
+              <div id="bar3"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of the top row -->
+
+        <!-- Slide menu mobile only -->
+
+        <div class="row" id="mobileMenu">
+          <div class="col-row">
+            <span>Social</span>
+          </div>
+          <div class="col-row" id="mobileMenuSocial">
+            <a href="https://www.facebook.com/Lou.Carter.Jr" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/Louiscarterjr21" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/louiscarterjr36/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/louiscarterjr/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Babyhacker36" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+
+
+          </div>
+
+          <!-- second row -->
+          <div class="col-row">
+
+            <ul class="nav" id="slideNav">
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Work" class="nav-link">Work</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-About" class="nav-link">About</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Resume" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-row" id="contact">
+            <span>Contact</span>
+            <span>
+              Louis Carter
+              <br>
+              P.O. Box 139
+              <br>
+              Austin, TX 78750
+              <br>
+              email@louiscarterjr.com
+              </s>
+          </div>
+        </div><!-- end mobile slide menu -->
+
+        <!--  Slide menue on large screens second row  -->
+
+        <div class="row" id="divText">
+          <div class="col-3 slideMenuRight">
+            <p>Social</p>
+
+            <!-- Social Media Div -->
+            <div class="socialMedia">
+              <table class="table table-borderless table-hover" id="smTable">
+                <tr>
+                  <td>
+                    <i class="fab fa-facebook-f"></i>
+                  </td>
+                  <td>
+                    <a href="https://www.facebook.com/Lou.Carter.Jr" target="_blank">
+                      <span> Facebook</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fab fa-twitter"></i>
+                  </td>
+                  <td>
+                    <a href="https://twitter.com/Louiscarterjr21" target="_blank">
+                      <span>Twitter</span>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <i class="fab fa-instagram"></i>
+                  </td>
+                  <td>
+                    <a href="https://www.instagram.com/louiscarterjr36/" target="_blank">
+                      <span> Instagram</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fab fa-linkedin-in"></i>
+                  </td>
+                  <td>
+                    <a href="https://www.linkedin.com/in/louiscarterjr/" target="_blank">
+                      <span>Linkedin</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fab fa-github"></i>
+                  </td>
+                  <td>
+                    <a href="https://github.com/Babyhacker36" target="_blank">
+                      <span>GitHub</span>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="contact" id="divText">
+              <p>Contact</p>
+              <span>Louis Carter</span>
+              <span>P.O. Box 139</span>
+              <span>Austion, TX 78750</span>
+              <span> email@louiscarterjr.com</span>
+            </div>
+
+            <!-- Contact Div -->
+          </div>
+          <!-- end of the right column -->
+
+          <div class="col-3 slideMenuLeft" id="divText">
+            <p id='website'>Website</p>
+
+            <!-- slide out menu navigation -->
+
+            <ul class="nav" id="slideNav" onclick="CloseNavOverflow()">
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Work" class="nav-link">Work</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-About" class="nav-link">About</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Resume" class="nav-link">Resume</a>
+              </li>
+              <li class="nav-item" id="slideTab">
+                <a href="#tab-Contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-5 slideMenuLeftimage" id="divText">
+            <img src="./img/webimg/gaskmask4.jpg" alt="">
+            <img src="./img/webimg/timerHacker.gif" alt="" id="timehacker">
+          </div>
+        </div><!-- end of the second row slide menu large screens -->
+      </div><!-- end of the slide menu canvas -->
+
+      <!-- end slide menu -->
+
+      <!-- ============= Home Page section ================== -->
+
+
+      <div class="et-hero-tabs">
+        <!-- this here is where the main homepage section starts -->
+
+
+
+        <div class="row glitchSection" id="homePage">
+
+          <div id="logoInvert">
+            <a href="#"><img src="./img/webimg/lclogo1Trans.png" alt="" /></a>
+          </div>
+          <div class="col-6" id="hpLeftCol">
+
+            <!-- <div id="borderLine"></div> -->
+            <!-- Social Media icons div -->
+
+            <div id="socialMedia">
+              <!-- line above the social media icons -->
+              <div id="borderLine"></div>
+            </div>
+            <!-- Name div -->
+            <div id="name">
+              <!-- <p>Louis</p> -->
+              <span class="typewrite" id="typeRemove"></span>
+            </div>
+
+            <!-- Home image -->
+            <!-- <img src="./img/webimg/hackerMaskBW2done.png" class="img-fluid" alt="Responsive image" /> -->
+          </div> <!-- end of the left section -->
+
+
+          <!-- right column -->
+          <div class="col-6" id="hpRightCol">
+            <img src="./img/webimg/lclogo1Trans.png" alt="LouisCarterJr.com" id="logo" />
+
+            <div id="menuToggle" onclick="changeToggleFunction(this)">
+              <div id="bar1"></div>
+              <div id="bar2"></div>
+              <div id="bar3"></div>
+            </div>
+
+            <div id="nameLast">
+              <!-- <p>Carter</p> -->
+              <span class="typewrite2" id="typeAdd"></span>
+
+            </div>
+          </div>
+        </div>
+        <!-- end of the homepage row -->
+
+        <!-- tabs container -->
+
+        <div class="et-hero-tabs-container" id="et-hero-tabs-container">
+          <a class="et-hero-tab" href="#tab-Work">Work</a>
+          <a class="et-hero-tab" href="#tab-About">About</a>
+          <a class="et-hero-tab" href="#tab-Skills">Skills</a>
+          <a class="et-hero-tab" href="#tab-Resume">Resume</a>
+          <a class="et-hero-tab" href="#tab-Contact">Contact</a>
+          <span class="et-hero-tab-slider"></span>
+        </div>
+
+        <!-- </section> -->
+      </div>
+
+      <!-- end of the container -->
+
+      <!-- Main -->
+
+      <main class="et-main">
+
+
+        <button id="slideButtonL">
+          < </button> <button id="slideButtonR">
+            >
+        </button>
+
+        <section class="et-slide" id="tab-Work">
+
+
+          <div id="slideMenuLow">MENU</div>
+
+
+          <div id="horizontalScroller">
+
+            <div id="slideDivRec">
+
+              <!-- first image from the left -->
+
+              <div class="divbox image1" id="imageDiv">
+                <img src="./img/webimg/slidePics/gray.jpg" alt="image" id="hovImage">
+
+              </div>
+
+
+              <div class="divbox" id="textHoverBox1">
+
+                <div id="number2">
+                  <p>
+                    <u id="hoverBoxChild2">01</u></p>
+                </div>
+                <div id="webTitle2">
+
+                  <p id="hoverBoxChild1">Addidas.com</p>
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+            <!-- second image from the left -->
+
+            <div id="slideDivRec">
+
+              <div class="divbox" id="textHoverBox2">
+
+                <div id="number">
+                  <p>
+                    <u id="hoverBoxChild4">02</u></p>
+                </div>
+                <div id="webTitle">
+
+                  <p id="hoverBoxChild3">Magiccity.com</p>
+
+                </div>
+              </div>
+
+
+              <div class="divbox image2" id="imageDiv">
+                <img src="./img/webimg/slidePics/pink.jpeg" alt="image" id="hovImage2">
+
+              </div>
+
+            </div>
+
+
+            <!-- Third image from the left -->
+            <div id="slideDivRec">
+
+
+              <div class="divbox image3" id="imageDiv">
+
+                <img src="./img/webimg/slidePics/blue.jpg" alt="image" id="hovImage3">
+
+
+              </div>
+              <div class="divbox" id="textHoverBox3">
+
+                <div id="number2">
+                  <p>
+                    <u id="hoverBoxChild6">03</u></p>
+                </div>
+                <div id="webTitle2">
+
+                  <p id="hoverBoxChild5">Magiccity.com</p>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Fourth image from the left -->
+
+            <div id="slideDivRec">
+
+              <div class="divbox" id="textHoverBox4">
+
+                <div id="number">
+                  <p>
+                    <u id="hoverBoxChild7">04</u></p>
+                </div>
+                <div id="webTitle">
+
+                  <p id="hoverBoxChild8">test.com</p>
+
+                </div>
+              </div>
+              <div class="divbox image4" id="imageDiv">
+
+                <img src="./img/webimg/slidePics/orange.jpg" alt="image" id="hovImage4">
+
+              </div>
+
+            </div>
+
+
+            <!-- fifth image from the left -->
+            <div id="slideDivRec">
+
+
+              <div class="divbox image5" id="imageDiv">
+
+                <img src="./img/webimg/slidePics/black.jpg" alt="image" id="hovImage5">
+
+
+              </div>
+              <div class="divbox" id="textHoverBox5">
+
+                <div id="number2">
+                  <p>
+                    <u id="hoverBoxChild9">05</u></p>
+                </div>
+                <div id="webTitle2">
+
+                  <p id="hoverBoxChild10">Magiccity.com</p>
+
+                </div>
+              </div>
+            </div>
+
+
+            <!-- sixth image from the left -->
+
+            <div id="slideDivRec">
+
+              <div class="divbox" id="textHoverBox6">
+
+                <div id="number">
+                  <p>
+                    <u id="hoverBoxChild11">06</u></p>
+                </div>
+                <div id="webTitle">
+
+                  <p id="hoverBoxChild12">test.com</p>
+
+                </div>
+              </div>
+              <div class="divbox image6" id="imageDiv">
+
+                <img src="./img/webimg/slidePics/red.jpg" alt="image" id="hovImage6">
+
+              </div>
+
+            </div>
+
+
+
+
+            <!-- seventh image from the left -->
+            <div id="slideDivRec">
+
+
+              <div class="divbox image7" id="imageDiv">
+
+                <img src="./img/webimg/slidePics/purple.jpg" alt="image" id="hovImage7">
+
+
+              </div>
+              <div class="divbox" id="textHoverBox7">
+
+                <div id="number2">
+                  <p>
+                    <u id="hoverBoxChild13">07</u></p>
+                </div>
+                <div id="webTitle2">
+
+                  <p id="hoverBoxChild14">Magiccity.com</p>
+
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- eigth image from the left -->
+
+            <div id="slideDivRec">
+
+              <div class="divbox" id="textHoverBox8">
+
+                <div id="number">
+                  <p>
+                    <u id="hoverBoxChild15">08</u></p>
+                </div>
+                <div id="webTitle">
+
+                  <p id="hoverBoxChild16">test.com</p>
+
+                </div>
+              </div>
+              <div class="divbox image8" id="imageDiv">
+
+                <img src="./img/webimg/slidePics/yellow.jpg" alt="image" id="hovImage8">
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- end horizontal scroller  -->
+
+          <!-- horizontal slider on small screens -->
+
+          <div class="container-fluid smallSlider">
+
+            <!-- row 1 -->
+            <div class="row" id="sliderRow">
+              <div class="col" id="imageSL1"></div>
+              <div class="col slSmallR">
+                <p>01</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+            </div><!-- end of row 1  -->
+
+            <!-- row 2 -->
+            <div class="row" id="sliderRow">
+              <div class="col  slSmallR">
+                <p>02</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+              <div class="col" id="imageSL2">
+
+
+              </div>
+            </div><!-- end of row 2  -->
+
+            <!-- row 3 -->
+            <div class="row" id="sliderRow">
+              <div class="col" id="imageSL3"></div>
+              <div class="col  slSmallR">
+                <p>03</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+            </div><!-- end of row 3  -->
+
+            <!-- row 4 -->
+            <div class="row" id="sliderRow">
+              <div class="col  slSmallR">
+                <p>04</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+              <div class="col" id="imageSL4"></div>
+            </div><!-- end of row 4  -->
+
+            <!-- row 5 -->
+            <div class="row" id="sliderRow">
+              <div class="col" id="imageSL5"></div>
+              <div class="col  slSmallR">
+                <p>05</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+            </div><!-- end of row 5  -->
+
+            <!-- row 6 -->
+            <div class="row" id="sliderRow">
+              <div class="col  slSmallR">
+                <p>06</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+              <div class="col" id="imageSL6"></div>
+            </div><!-- end of row 6  -->
+
+            <!-- row 7 -->
+            <div class="row" id="sliderRow">
+              <div class="col" id="imageSL7"></div>
+              <div class="col  slSmallR">
+                <p>07</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+            </div><!-- end of row 7  -->
+
+            <!-- row 8 -->
+            <div class="row" id="sliderRow">
+              <div class="col  slSmallR">
+                <p>08</p>
+                <p>Website.com</p>
+                <p>Portfolio</p>
+              </div>
+              <div class="col" id="imageSL8"></div>
+            </div><!-- end of row 8  -->
+
+
+          </div><!-- end of container -->
+
+
+
+        </section>
+
+
+
+
+
+        <!-- This is the about section -->
+
+
+
+        <section class="et-slide" id="tab-About">
+
+          <div class="container-fluid ">
+
+            <div class="row align-items-end aboutRow">
+
+              <!-- First colum -->
+              <div class="col-lg-4 colLower">
+
+                <img src="./img/webimg/hackermask.jpg" class="img-fluid aboutPics" alt="Responsive image" />
+
+
+                <div id="aboutCol">
+                  <BR></BR>
+                  <h2>I AM PROGRAMMING!</h2>
+                  <p>
+                    I have been programming for about 4 years now. I program with just about everything since the sytanx
+                    is all the same. HTML, CSS, Javascript and its frameworks Like React.js. I love to make apps and
+                    websites but am getting interested in AR and VR Lately.</p>
+
+                </div>
+
+
+              </div><!-- end of the first column -->
+
+
+              <!-- second  colum -->
+              <div class="col-lg-4 colLower">
+
+
+
+                <img src="./img/webimg/me3.PNG" class="img-fluid aboutPics" alt="Responsive image" />
+
+                <div id="aboutCol">
+                  <BR></BR>
+                  <!-- <h2   >MY NAME IS LOU!</h2> -->
+                  <div id='tagline'>
+                    <div class='visible'>
+                      <ul>
+                        <li>MY NAME IS LOU</li>
+                        <li>WEB DEVELOPER</li>
+                        <li>WEB DESIGNER</li>
+
+
+                      </ul>
+                    </div>
+                  </div>
+                  <p>I aspire to be the greatest programmer in the world. When Im not programming, Im learning how to
+                    program. I love everything from web and mobile development to video game programming in C# and
+                    unity. Currently Learnign AR foundations and and Kali Linux.</p>
+
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 colLower">
+
+                <img src="./img/webimg/artcolpic.jpg" class="img-fluid aboutPics" alt="Responsive image" />
+
+
+                <div id="aboutCol">
+                  <BR></BR>
+                  <h2>I LOVE ART!</h2>
+                  <p>
+                    I'm an artist at heart and have been since I was a kid. Ever since I first laid a pencil to some
+                    paper I knew that the problems of the world could be expressed. Art to me is probably the most
+                    important conpontent in UX design in photoshop amd gimp.</p>
+
+                </div>
+
+
+              </div><!-- end of the third column -->
+
+
+
+            </div><!-- end of the row -->
+
+
+
+          </div><!-- end of the container -->
+
+        </section>
+
+        <section class="et-slide" id="tab-Skills">
+
+          <div class="container-fluid tabBackground">
+            <div class="row h-100">
+
+              <div class="col-lg-6 my-auto" id="tabSkillsLeft">
+
+                <div class="skillbar clearfix " data-percent="80%">
+                  <div class="skillbar-title"><span>FRONTEND</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">85%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="60%">
+                  <div class="skillbar-title"><span>BACKEND</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">60%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="94%">
+                  <div class="skillbar-title html5"><span>HTML5</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">95%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="85%">
+                  <div class="skillbar-title"><span>CSS3</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">85%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="80%">
+                  <div class="skillbar-title"><span>Javscript</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">80%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="70%">
+                  <div class="skillbar-title"><span>JQUERY</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">70%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="65%">
+                  <div class="skillbar-title"><span>WORDPRESS</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">65%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="50%">
+                  <div class="skillbar-title"><span>REACT</span></div>
+                  <div class="skillbar-bar""></div>
+	<div class=" skill-bar-percent">50%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="80%">
+                  <div class="skillbar-title"><span>Photoshop</span></div>
+                  <div class="skillbar-bar"></div>
+                  <div class="skill-bar-percent">70%</div>
+                </div>
+
+                <!-- End Skill Bar -->
+              </div>
+
+
+              <!-- end of col -->
+              <div class="col-lg-6" id="tabSkillsRight">
+                <div id="imageContain">
+                  <div class="row" id="tabSkillsRightRow">
+
+                    <div class="col-1" id="tabLeft">
+
+                      <div class="fatherDot">
+
+                        <div class="dot"></div>
+                      </div>
+
+
+
+
+
+
+
+
+                    </div><!-- end of the left -->
+                    <div class="col-10 box" id="tabMiddle">
+
+                      <!-- <div id="SkillsSlideOverLay">
+                   
+                      </div> -->
+
+
+
+
+
+
+
+
+                      <div id="skillsSlide" class="skillsSlideimg9">
+
+                        <!--photoshop image -->
+                      </div>
+
+
+
+                      <div id="skillsSlide" class="skillsSlideimg8">
+
+                        <!--react image -->
+                      </div>
+
+                      <div id="skillsSlide" class="skillsSlideimg7">
+
+                        <!--wordpress image -->
+                      </div>
+
+                      <div id="skillsSlide" class="skillsSlideimg6">
+
+                        <!--Jquery image -->
+                      </div>
+
+
+                      <div id="skillsSlide" class="skillsSlideimg5">
+
+                        <!--Java image -->
+                      </div>
+
+                      <div id="skillsSlide" class="skillsSlideimg4">
+
+                        <!--css image -->
+                      </div>
+
+                      <div id="skillsSlide" class="skillsSlideimg3">
+
+                        <!-- html image -->
+                      </div>
+
+
+                      <div id="skillsSlide" class="skillsSlideimg2">
+
+                        <!-- Backend  image -->
+                      </div>
+
+                      <div id="skillsSlide" class="skillsSlideimg1">
+
+                        <!-- front end home image -->
+
+
+
+                      </div>
+
+                    </div>
+                    <!-- end of the Middle -->
+
+                    <div class="col-1" id="tabRight">
+                      <div class="dotParent">
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                        <div class="rtDot" id="rtDot"></div>
+                      </div>
+
+                    </div> <!-- end of the right -->
+
+
+                  </div><!-- end of the row -->
+
+
+                </div><!-- end of the imageContain -->
+
+
+
+              </div> <!-- end of the column right -->
+
+            </div><!-- end of the row -->
+
+
+
+
+
+
+
+        </section>
+
+        <!-- =================== Resume Section ======================== -->
+
+        <section class="et-slide" id="tab-Resume">
+          <div class="site-wrap" class=" background-animation" summary="background-animation" width="100%"">
+
+<div class=" site-wrap">
+            <div class="panel-wrap animate--tilt">
+              <div class="panel" data-x-pos="0" data-y-pos="0">
+                <span class="panel__nav panel__nav--right-top js-up js-right">Education</span>
+                <span class="panel__nav panel__nav--left-top js-up js-left">Skills</span>
+                <span class="panel__nav panel__nav--left js-left">Projects</span>
+                <span class="panel__nav panel__nav--right js-right">Awards</span>
+                <span class="panel__nav panel__nav--right-down js-down js-right">References</span>
+                <span class="panel__nav panel__nav--left-down js-down js-left">Git Hub</span>
+                <span class="panel__nav panel__nav--down js-down">Follow Me</span>
+                <span class="panel__zoom panel__zoom js-zoom viewAll">View All</span>
+
+                <!-- ================  Experience section div ======================== -->
+
+                <!-- start of the container -->
+                <div class="container-fluid resumeWrap">
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/experienceTitle.png"
+                        alt="Experience" class="resumeTitle">
+                    </div>
+                  </div><!-- end of the row -->
+                  <!-- second row -->
+                  <div class="row"  id="exrow">
+                    <div class="col-6 resumeColLeft experienceSection">
+                      <P> <span> Front End Web Developer </span> <br> ITC Management Group Orlando, FLAug 2015 -
+                        Present
+                      </P>
+                      <button type="button" class="btn btn-sm" id="mybtn1"> More <i class="arrow right"></i></button>
+                      <p> <span> Instructor, Web developer</span> <br> Socrates Prep School Orlando, FL
+                        Aug 2017 to Jan 2018
+                      </p>
+                      <button type="button" class="btn btn-sm" id="mybtn2"> More <i class="arrow right"></i></button>
+                      <p> <span> Instructor, Social Science </span><br> Atlantic High School Orange, FL
+                        Aug 2012 to June 2016
+                      </p>
+                      <button type="button" class="btn btn-sm" id="mybtn3"> More <i class="arrow right"></i></button>
+                      <p> <span>Armament Systems Specialist </span><br> United States Air Force
+                        July 1999 to July 2012 </p>
+                      <button type="button" class="btn btn-sm" id="mybtn4"> More <i class="arrow right"></i></button>
+                    </div>
+                    <div class="col-6" id="resumeColRight" class="mainInResume">
+                      <p>
+                        Hello, I am a Full stack web developer and Airforce veteran with a growing knowledge of
+                        front-end
+                        and back-end programming languages, responsive frameworks and best coding practices. I also have
+                        four years experience in web and mobile development, programming, web<br /> marketing and web
+                        project management.</p>
+                      <img src="./img/webimg/portLou.jpg" class="louPort" alt="louiscarterjr">
+                      <!-- <div id="resumeText">
+                        sup
+                      </div> -->
+                    </div>
+                  </div><!-- end of the row -->
+
+
+
+
+
+
+
+
+
+                </div><!-- end of the container -->
+              </div>
+
+
+              <!-- ================  Skills section div ======================== -->
+
+              <div class="panel" data-x-pos="-1" data-y-pos="1">
+                <span class="panel__nav panel__nav--right-down js-down js-right">Experience</span>
+                <!-- <span class="panel__nav panel__nav--right js-right">right</span> -->
+                <span class="panel__nav panel__nav--down js-down">Projects</span>
+                <span class="panel__zoom js-zoom viewAll">View All</span>
+
+                <!-- start of the container -->
+
+                <div class="container-fluid resumeWrap resumeWrapSkills">
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/skillsTitle.png" alt="Experience"
+                        class="resumeTitle">
+                    </div>
+                  </div><!-- end of the row -->
+
+                  <!-- second row -->
+                  <div class="row secondRowSkills">
+                    <div class="col-4 offset-2 resumeColLeft skillsSection">
+                      <p>
+                        “Lou is an ambitious coder with a tenacity to learn.” <br>
+                      </p>
+                      <span>- Alex Trandle <br>{Manager, Senior Developer}</span>
+                    </div>
+                    <div class="col-6 skillsList" id="resumeColRight">
+                      <ul>
+                        <li>Front end development</li>
+                        <li> UI /UX Design</li>
+                        <li>Command of UI principles for responsive web design. </li>
+                        <li> CSS</li>
+                        <li> HTML</li>
+                        <li> BootStrap / Semantic UI</li>
+                        <li> Javascript</li>
+                        <li>Jquery </li>
+                        <li> Knowledge React.JS</li>
+                        <li>Visual Studio </li>
+                        <li>Git bash </li>
+                        <li>GitHub management</li>
+                        <li>API and MVC</li>
+                        <li>Experience with Restful </li>
+                        <li>Node.js Experience</li>
+                      </ul>
+                      <!-- JS text insert div -->
+                      <div id="resumeText"> </div>
+                    </div>
+                  </div><!-- end of the row -->
+                </div><!-- end of the container -->
+              </div>
+
+
+              <!-- ================  Education section div ======================== -->
+
+
+
+              <div class="panel" data-x-pos="1" data-y-pos="1">
+                <span class="panel__nav panel__nav--left-down js-down js-left">Experience</span>
+
+                <span class="panel__nav panel__nav--down js-down">Awards</span>
+                <span class="panel__zoom js-zoom viewAll viewAllEd">View All</span>
+
+
+                <!-- start of the container -->
+
+                <div class="container-fluid resumeWrap resumeWrapEd">
+
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/educationTitle.png"
+                        alt="Experience" class="resumeTitle">
+
+                    </div>
+
+                  </div><!-- end of the row -->
+
+                  <!-- second row -->
+
+                  <div class="row educationRow">
+                    <div class="col-8 offset-2 my-auto resumeColCenter experienceSection">
+                      <p> <span> B.S., Computer Sciences </span> <br> University of Central Florida, Graduate May 2019
+                      </p>
+                      <p> <span> Certificate 250hrs, Web Development </span><br> University of Central Florida, Graduate
+                        May 2018
+                      </p>
+                      <p> <span> B.S., Criminal Justice </span> <br>Colorado Technical University, Graduate May 2008
+                      </p>
+                      <p> <span>A.S., Systems Technology </span> <br>Air Force Institute of Technology, Graduate May
+                        2002
+                      </p>
+                    </div><!-- end resume col center -->
+                  </div><!-- end of the row -->
+                </div><!-- end of the container -->
+              </div>
+
+              <!-- ================  Projects section div ======================== -->
+
+              <div class="panel" data-x-pos="-1" data-y-pos="0">
+                <span class="panel__nav panel__nav--up js-up">Skills</span>
+                <span class="panel__nav panel__nav--right js-right">Experience</span>
+                <!-- <span class="panel__nav panel__nav--right-down js-down js-right">down/right</span> -->
+                <span class="panel__nav panel__nav--down js-down gitDown">Git Hub</span>
+                <span class="panel__zoom js-zoom viewAll projectView">View All</span>
+                <div class="container-fluid resumeWrap resumeWrapProjects">
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/ProjectsTitle.png"
+                        alt="Experience" class="resumeTitle">
+                    </div>
+                  </div>
+                  <!-- second row  -->
+                  <div class="row projects2ndRow">
+                    <div class="col-12">
+                      <figure class="snip1566">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample14.jpg"
+                          alt="sq-sample14" />
+                        <figcaption><i class="fas fa-link"></i></figcaption>
+                        <a href="#"></a>
+                      </figure>
+                      <figure class="snip1566"><img
+                          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+                        <figcaption><i class="fas fa-link"></i></figcaption>
+                        <a href="#"></a>
+                      </figure>
+                      <figure class="snip1566"><img
+                          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+                        <figcaption><i class="fas fa-link"></i></figcaption>
+                        <a href="#"></a>
+                      </figure>
+                    </div>
+
+                  </div><!-- end of the row -->
+
+                  <div class="row">
+                    <div class="col-12">
+                      <figure class="snip1566"><img
+                          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample19.jpg" alt="sq-sample19" />
+                        <figcaption><i class="fas fa-link"></i></figcaption>
+                        <a href="#"></a>
+                      </figure>
+                      <figure class="snip1566"><img
+                          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample20.jpg" alt="sq-sample20" />
+                        <figcaption><i class="fas fa-link"></i></figcaption>
+                        <a href="#"></a>
+                      </figure>
+                      <figure class="snip1566"><img
+                          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+                        <figcaption><i class="fas fa-link"></i></figcaption>
+                        <a href="#"></a>
+                      </figure>
+                    </div>
+                  </div><!-- end of the row -->
+                </div><!-- end of the container -->
+              </div>
+
+              <!-- ================  Git Hub section div ======================== -->
+
+              <div class="panel" data-x-pos="-1" data-y-pos="-1">
+                <span class="panel__nav panel__nav--up js-up">Projects</span>
+                <span class="panel__nav panel__nav--right-top js-up js-right">Experience</span>
+                <span class="panel__nav panel__nav--right js-right">Follow Me</span>
+                <span class="panel__zoom js-zoom viewAll gitView">View All</span>
+
+                <!-- start of the container -->
+
+                <div class="container-fluid resumeWrap resumeWrapGitHUb">
+
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/githubTitle.png" alt="Experience"
+                        class="resumeTitle">
+
+                    </div>
+
+                  </div><!-- end of the row -->
+
+                  <!-- second row -->
+
+                  <div class="row git2ndRow">
+                    <div class="col-8 offset-2 my-auto">
+                      <button type="button" class="btn btn-light btn-lg gitBtn">Profile </button>
+
+
+
+                      <button type="button" class="btn btn-light btn-lg gitBtn">Repositories</button>
+                     
+
+                    </div>
+
+
+                  </div><!-- end of the row -->
+
+                  <!-- third row -->
+
+                  <div class="row git3rdRow">
+                    <div class="col-6   my-auto">
+                      
+ <img src="/img/webimg/louiscarterBlackandWhite.jpg" class="rounded-circle" alt="louiscarterjr">
+                     
+                      <p>Welcome to my gitHub! Here you will find most of my work. I have created a wide range of
+                        projects
+                        in many different languages. Mostly web development. I have been dabbling in other projects and
+                        will
+                        have those projects posted soon. Most recently I have taken an interest in AR and VR and plan to
+                        have those projects up and running soon. 
+                      </p>
+                    </div>
+                    <div class="col-3  my-auto">
+                      <p>Tools and Expertise</p>
+                      <p>Git hub</p>
+                      <p>Git Bash</p>
+                      <p>JSON</p>
+                      <p>Mysql</p>
+                      <p>NPM</p>
+                      <p>Javascript Unit Testing</p>
+                      <p>Visual Studio</p>
+                      <p>Chrome Dev Tools</p>
+                      <p>Photoshop</p>
+
+                    </div>
+                    <div class="col-2  my-auto">
+                      <p>Languages and frameworks</p>
+                      <p>Jquery</p>
+                      <p>Vanilla.JS</p>
+                      <p>Ajax</p>
+                      <p>Mysql</p>
+                      <p>Node.js</p>
+                      <p>React.js</p>
+                      <p>HandleBars</p>
+                      <p>BootStrap</p>
+                      <p>Semantic UI </p>
+                    </div>
+                  </div><!-- end of the row -->
+                </div><!-- end of the container -->
+              </div>
+
+              <!-- ================  Reference section div ======================== -->
+              <div class="panel" data-x-pos="1" data-y-pos="-1">
+                <span class="panel__nav panel__nav--left-top js-up js-left">Experience</span>
+                <span class="panel__nav panel__nav--up js-up">Awards</span>
+
+
+                <span class="panel__nav panel__nav--left js-left followMe_panel">Follow Me</span>
+
+                <span class="panel__zoom js-zoom viewAll refView">View All</span>
+
+                <!-- start of the container -->
+
+                <div class="container-fluid resumeWrap resumeWrapRef ResumeWrapText">
+
+                  <!-- first row  -->
+                  <div class="row refRowParent" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/ReferencesTitle.png"
+                        alt="Experience" class="resumeTitle">
+
+                    </div>
+
+                  </div><!-- end of the row -->
+
+                  <!-- second row -->
+
+                  <div class="row refRow">
+                    <div class="col-2  offset-2 my-auto">
+                      <img src="/img/webimg/jasonPortilla.jpg" class="rounded-circle" id="rcReferences"
+                        alt="Jason Portilla">
+
+                    </div>
+
+                    <div class="col-7  my-auto">
+
+                      <p> <span> Jason Portilla, Front End Developer | Express Scripts</span> <br> I have known Louis
+                        for
+                        two years. During this period he has demonstrated that he is very honest and hard working and a
+                        reliable person. His ability to take criticism and apply it to his work is unperall by far. One
+                        of
+                        the greatest people I have had the ability to work with.</p>
+
+                    </div>
+                  </div><!-- end of the row -->
+
+                  <!-- Third row -->
+
+                  <div class="row refRow">
+                    <div class="col-2 offset-2 my-auto">
+                      <img src="/img/webimg/alexTrandle.jpg" class="rounded-circle" id="rcReferences"
+                        alt="Jason Portilla">
+
+                    </div>
+
+                    <div class="col-7  my-auto">
+
+                      <p> <span> Alex Trandle, Senior Developer | ITC Management Group</span> <br> Louis was responsible
+                        for integrating API,mobile and web front end programs for our firm and clients. He has the
+                        ability
+                        to deliver results quickly. He is also a great communicator and has the ability to tell you the
+                        truth if he can not deliver. He has programmed with me for 3 years and in that time I have found
+                        his ability to learn new skills and techniques will help any company possess more value.</p>
+
+                    </div>
+                  </div><!-- end of the row -->
+
+                  <!-- forth row -->
+
+                  <div class="row refRow">
+                    <div class="col-2  offset-2 my-auto">
+                      <img src="/img/webimg/denzelWilliams.jpg" class="rounded-circle" id="rcReferences"
+                        alt="Jason Portilla">
+
+                    </div>
+
+                    <div class="col-7  my-auto">
+
+                      <p> <span> Denzel Williams, Sustainment Engineer | Accesso</span> <br> I have worked with Louis on
+                        numerous projects. As a classmate at the university of central florida we have worked together
+                        developing websites and mobile applications. To this day we maintain a healthy work relationship
+                        relying on each other to develop programs in react and javascript. Great guy and wonderful
+                        person.
+                      </p>
+
+                    </div>
+                  </div><!-- end of the row -->
+
+
+                </div><!-- end of the container -->
+              </div>
+
+              <!-- ================  Awards section div ======================== -->
+
+              <div class="panel" data-x-pos="1" data-y-pos="0">
+                <span class="panel__nav panel__nav--up js-up">Education</span>
+                <span class="panel__nav panel__nav--left js-left">Experience</span>
+                <span class="panel__nav panel__nav--down js-down">References</span>
+                <span class="panel__zoom js-zoom viewAll">View All</span>
+
+                <!-- start of the container -->
+
+                <div class="container-fluid resumeWrap resumeWrapAwards">
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/AwardsTitle.png" alt="Experience"
+                        class="resumeTitle">
+                    </div>
+                  </div><!-- end of the row -->
+                  <!-- second row -->
+                  <div class="row" style="margin-top:5%;">
+                    <div class="col-5 offset-1 resumeColLeft skillsSection">
+                      <p>
+                        “Awards I have earned throughout <br>
+                        my programming <br> career”
+                      </p>
+                    </div>
+                    <div class="col-5 liPromo" id="resumeColRight">
+                      <ul>
+                        <li>Promoted to team lead within 4 months</li>
+                        <li>Employee of the month July 2018</li>
+                        <li>Employee of the Quarter 2019</li>
+                        <li>Recognized for Innovative ideas that were implemented throughout the organization</li>
+                        <li> UCF Final Project wilnner 2018 </li>
+                        <li>Junior Developer Award ITC </li>
+                      </ul>
+                      <div id="resumeText">
+                      </div>
+                    </div>
+                  </div><!-- end of the row -->
+                </div><!-- end of the container -->
+              </div>
+
+
+              <!-- ================  Follow Me section div ======================== -->
+              <div class="panel followMe" data-x-pos="0" data-y-pos="-1">
+                <span class="panel__nav panel__nav--up js-up">Experience</span>
+                <span class="panel__nav panel__nav--left-top js-up js-left">Projects</span>
+                <span class="panel__nav panel__nav--right-top js-up js-right">Awards</span>
+                <span class="panel__nav panel__nav--left js-left">GitHub</span>
+                <span class="panel__nav panel__nav--right js-right">References</span>
+                <span class="panel__nav panel__nav--down nav_contact" href="#tab-Contact">
+                  <a href="#tab-Contact">Contact</a>
+                </span>
+
+
+                <span class="panel__zoom js-zoom viewAll">View All</span>
+
+                <div class="container-fluid resumeWrap resumeWrapfollowMe">
+
+                  <!-- first row  -->
+                  <div class="row" style="margin-top:1%;">
+                    <div class="col-8 offset-2 my-auto"><img src="/img/webimg/Letters/FollowMeTitle.png" alt="FollowMe"
+                        class="resumeTitle">
+                    </div>
+                  </div><!-- end of the row -->
+
+                  <!-- second row  -->
+                  <div class="row" style="margin-top:10%;">
+                    <div class="col-8 offset-2 my-auto">
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i class="fab fa-facebook-f icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram icon"></i></a></li>
+                        <li>
+                          <a href="#"><i class="fab fa-twitter icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-github icon"></i></a></li>
+                        <li>
+                          <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+
+                      </ul>
+
+                    </div>
+                  </div><!-- end of the row -->
+                </div><!-- end of the container -->
+              </div>
+            </div>
+          </div>
+    </div><!-- background of the div  -->
+
+    <!-- section for mobile only -->
+
+    <div class=" row h-100 resumeWrapMobile">
+      <div class="col-12">
+
+        <ul class="resumeNav list-inline">
+          <li class="list-inline-item">
+            <button type="button" class="btn btn-sm" id="experiencenBtn"> Experience</button>
+
+          </li>
+          <li class="list-inline-item"> <button type="button" class="btn btn-sm" id="educationBtn">Education</button>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-12" id="experienceSection">
+
+
+
+        <img src="/img/webimg/Letters/experienceTitle.png" alt="Experience" id='ExMobImg'>
+
+        <p id="FEWD"> Front End Web Developer </p>
+
+        <span>
+          ITC Management Group <br> Orlando, FL <br> Aug 2015 - Present
+        </span>
+
+
+        <br>
+
+        <p> Instructor, Web developer </p>
+
+        <span>Socrates Prep School <br> Orlando, FL <br> Aug 2017 - Jan 2018 </span>
+
+
+        <p> Instructor, Social Science </p>
+
+        <span>
+          Atlantic High School <br> Orange, FL
+          <br> Aug 2012 - June 2016 </span>
+
+        <p>Armament Systems Specialist </p>
+
+        <span>United States Air Force <br> July 1999 - July 2012</span>
+
+
+
+
+      </div>
+      <div class="col-12" id="educationSection">
+
+        <img src="/img/webimg/Letters/educationTitle.png" alt="Experience" id='ExMobImg'>
+
+        <p id="FEWD"> B.S., Computer Sciences </p>
+
+        <span>University of Central Florida </span>
+        <br>
+        <span>Graduate May 2019</span>
+        <br>
+
+        <p> Certificate 250hrs, Web Development </p>
+
+        <span> University of Central Florida </span>
+        <br>
+        <span>Graduate May 2018 </span>
+        <br>
+
+
+
+        <p > B.S., Criminal Justice </p>
+        <span> Colorado Technical University </span>
+        <br>
+        <span> Graduate May 2008 </span>
+        <br>
+
+        <p>Air Force Institute of Technology</p>
+
+          <span>A.S., Systems Technology </span>
+
+        
+          <br>
+          <span> Graduate May 2002</span>
+
+
+      </div>
+
+      </div>
+
+      </section>
+
+
+
+
+
+
+
+
+      <!-- end of the resume section -->
+
+      <section class="et-slide" id="tab-Contact">
+
+        <div class="container tabContain">
+
+          <!-- first row -->
+
+          <div class="row" id="largeForm" style="margin-top:1%;">
+
+
+
+            <div class="col-12 my-auto"><img src="/img/webimg/Letters/contactMeTitle.png" alt="Experience"
+                class="resumeTitle contactTitle">
+
+            </div>
+            <!-- second row -->
+            <div class="row contactRow">
+
+
+              <div class="col-6">
+
+                <form action="action_page.php">
+
+                  <label for="fname"></label>
+                  <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                  <label for="lname"></label>
+                  <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                  <label for="subject"></label>
+                  <textarea id="subject" name="subject" placeholder="Leave Me a Message!"
+                    style="height:100px"></textarea>
+
+
+                  <button class="btn send-button" id="submit" type="submit" value="SEND">
+
+
+                    <div class="button">
+                      <i class="fa fa-paper-plane"></i><span class="send-text">DO IT!</span>
+                    </div>
+
+                  </button>
+
+                </form>
+
+
+
+
+
+
+              </div> <!-- end of col-6 -->
+
+
+              <div class="col-6 contactLeft">
+
+
+                <ul class="contact-list">
+                  <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Austin |
+                        TX</span></i></li>
+
+                  <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                          href="tel:1-212-555-5555" title="Give me a call">(512) 730-1366</a></span></i></li>
+
+                  <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                          href="mailto:#" title="Send me an email">email@louiscarterjr.com</a></span></i></li>
+
+                </ul>
+
+                <hr>
+
+
+                <ul class="social-media-list">
+                  <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fab fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fab fa-github" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+
+
+                <hr>
+              </div><!-- end of contact left -->
+
+
+
+            </div>
+
+
+
+
+
+          </div><!-- end of the largeForm row -->
+
+
+          <div class="row" id="smallForm">
+
+            <div class="col-12 my-auto">
+
+              <img src="/img/webimg/Letters/contactMeTitle.png" alt="Experience" class="resumeTitle contactTitle">
+
+            </div>
+
+
+            <div class="col-12 my-auto">
+              <ul class="contact-list2 list-inline">
+                <li class="list-inline-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Austin |
+                      TX</span></i></li>
+
+                <li class="list-inline-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                        href="tel:1-512-730-1366" title="Give me a call"></a></span></i></li>
+
+                <li class="list-inline-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                        href="mailto:email@nerdstackmedia.com" title="Send me an email"></a></span></i></li>
+
+              </ul>
+
+
+              <!-- form area -->
+
+              <form action="action_page.php">
+
+                <label for="fname"></label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+                <label for="lname"></label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                <label for="subject"></label>
+                <textarea id="subject" name="subject" placeholder="Leave Me a Message!" style="height:100px"></textarea>
+
+
+                <button class="btn send-button" id="submit" type="submit" value="SEND">
+
+
+                  <div class="button">
+                    <i class="fa fa-paper-plane"></i><span class="send-text">DO IT!</span>
+                  </div>
+
+                </button>
+
+              </form>
+
+
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fab fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <i class="fab fa-github" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div><!-- end of the small form row -->
+
+
+
+
+
+
+
+        </div><!-- end of the container -->
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer>
+
+        <p>
+          Designed by Louis Carter @ <a href="http://nerdstackmedia.com/" target="_blank"> Nerd Stack Media</a>
+          &copy;2020
+        </p>
+
+        <!-- social media icons at the top -->
+        <nav class="social">
+          <ul>
+            <li><a href="https://www.facebook.com/Lou.Carter.Jr" target="_blank">Facebook <i
+                  class="fab fa-facebook-f topFacebook"></i></a></li>
+            <li><a href="https://twitter.com/Louiscarterjr21" target="_blank">Twitter <i
+                  class="fab fa-twitter toptwitter"></i></a></li>
+            <li><a href="https://www.instagram.com/louiscarterjr36/" target="_blank">Instagram <i
+                  class="fab fa-instagram topInstagram"></i></a></li>
+            <li><a href="https://github.com/Babyhacker36">Github <i class="fab fa-github topGithub"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/louiscarterjr">Linkedin <i class="fab fa-linkedin topGithub"></i></a></li>
+          </ul>
+        </nav>
+
+      </footer>
+      </main>
+
+
+    </div>
+    <!-- end of the main Page body -->
+
+    <!-- end of the container fluid div -->
+    <!-- cursor -->
+    <div class="cursor"></div>
+
+
+
+
+
+    <!-- end of the entire section  -->
+
+    <!-- </div> -->
+
+    <!-- end of the containerfluid -->
+
+    <!-- BootStrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- Main Javascript  -->
+
+    <script src="./js/main.js"></script>
+
+    <!-- Jquery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+
+
+  </body>
+
+</html>
