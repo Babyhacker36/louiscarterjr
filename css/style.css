@@ -1614,7 +1614,7 @@ width: 100%;
 
 
 #SkillsSlideOverLay {
-background-image: url("/img/skillsImg/frontend.png");
+background-image: url("../img/skillsImg/frontend.png");
 background-size: 100% 200%;
 background-repeat: no-repeat;
 z-index: 1;
@@ -1634,7 +1634,7 @@ overflow-y: hidden;
 
 .skillsSlideimg9 {
 
-  background-image: url("/img/skillsImg/hackermaskquiet.jpg");
+  background-image: url("../img/skillsImg/hackermaskquiet.jpg");
   background-position: center;
   background-size: 100% 60%;
   background-repeat: no-repeat;
@@ -1643,14 +1643,14 @@ overflow-y: hidden;
 
 .skillsSlideimg8 {
 
-  background-image: url("/img/skillsImg/reactprogram.gif");
+  background-image: url("../img/skillsImg/reactprogram.gif");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* z-index: 0; */
 } 
 .skillsSlideimg7 {
-  background-image: url("/img/skillsImg/javascriptrotate.webp");
+  background-image: url("../img/skillsImg/javascriptrotate.webp");
   background-position: center;
   background-size: 100% 80%;
   background-repeat: no-repeat;
@@ -1659,7 +1659,7 @@ overflow-y: hidden;
 
 .skillsSlideimg6 {
 
-  background-image: url("/img/skillsImg/html5_top.png");
+  background-image: url("../img/skillsImg/html5_top.png");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1668,7 +1668,7 @@ overflow-y: hidden;
 
 .skillsSlideimg5 {
 
-  background-image: url("/img/skillsImg/javascriptbackground.gif");
+  background-image: url("../img/skillsImg/javascriptbackground.gif");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1677,7 +1677,7 @@ overflow-y: hidden;
 
 .skillsSlideimg4 {
 
-  background-image: url("/img/skillsImg/css3.png");
+  background-image: url("../img/skillsImg/css3.png");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1687,7 +1687,7 @@ overflow-y: hidden;
 
 .skillsSlideimg3 {
 
-  background-image: url("/img/skillsImg/box.webp");
+  background-image: url("../img/skillsImg/box.webp");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1696,7 +1696,7 @@ overflow-y: hidden;
 
 .skillsSlideimg2 {
 
-  background-image: url("/img/skillsImg/frontend.png");
+  background-image: url("../img/skillsImg/frontend.png");
   background-position: center;
   background-size: 70% 70%;
   background-repeat: no-repeat;
@@ -1705,7 +1705,7 @@ overflow-y: hidden;
 
 .skillsSlideimg1 {
   /* z-index: 0; */
-  background-image: url("/img/skillsImg/F9Jr.gif");
+  background-image: url("../img/skillsImg/F9Jr.gif");
   background-position: center;
   background-size: 90% 90%;
   background-repeat: no-repeat;
@@ -1990,7 +1990,7 @@ overflow-y: hidden;
 
 #tab-Resume {
   background-color: #000;
-  background-image: url('https://i.imgsafe.org/6c147abfa3.jpg');
+  /* background-image: url('https://i.imgsafe.org/6c147abfa3.jpg'); */
   background-repeat: repeat;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -2053,7 +2053,7 @@ overflow-y: hidden;
 }
 
 .resumeWrap {
-  background-image: url('/img/webimg/Letters/E-Letter.png');
+  background-image: url('../img/webimg/Letters/E-Letter.png');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -2062,32 +2062,32 @@ overflow-y: hidden;
 }
 
 .resumeWrapSkills {
-  background-image: url('/img/webimg/Letters/S-Letter.png');
+  background-image: url('../img/webimg/Letters/S-Letter.png');
 }
 
 .resumeWrapEd {
-  background-image: url('/img/webimg/Letters/E-Letter.png');
+  background-image: url('../img/webimg/Letters/E-Letter.png');
 }
 
 .resumeWrapAwards {
-  background-image: url('/img/webimg/Letters/A-Letter.png');
+  background-image: url('../img/webimg/Letters/A-Letter.png');
 }
 
 .resumeWrapGitHUb {
-  background-image: url('/img/webimg/Letters/G-Letter.png');
+  background-image: url('../img/webimg/Letters/G-Letter.png');
 }
 
 .resumeWrapProjects {
-  background-image: url('/img/webimg/Letters/P-Letter.png');
+  background-image: url('../img/webimg/Letters/P-Letter.png');
 }
 
 .resumeWrapRef {
-  background-image: url('/img/webimg/Letters/R-Letter.png');
+  background-image: url('../img/webimg/Letters/R-Letter.png');
 }
 
 
 .resumeWrapfollowMe {
-  background-image: url('/img/webimg/Letters/F-Letter.png');
+  background-image: url('../img/webimg/Letters/F-Letter.png');
 }
 
  .nav_contact a {
