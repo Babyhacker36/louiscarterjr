@@ -2167,7 +2167,9 @@ overflow-y: hidden;
   height: 200px;
 }
 
-
+#references {
+  width: 50%;
+}
 /* centered colum education section */
 .resumeColLeft {
   text-align: right;
@@ -2351,7 +2353,8 @@ i {
 }
 
 .snip1566 img {
-  width: 100%;
+  width: 282px;
+  height:282px;
   backface-visibility: hidden;
   vertical-align: top;
   border-radius: 50%;
@@ -2629,6 +2632,7 @@ form i {
 .contact-list i,
 .social-media-list i {
   border: none;
+  z-index: 2;
 }
 
 .place {
