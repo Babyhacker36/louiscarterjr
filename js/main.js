@@ -6,18 +6,18 @@
 var LoadingPage = document.getElementById('loadingPage');
 var MainBodyPage = document.getElementById('mainPageBody');
 
-// function loadingPageDisappears() {
-//   MainBodyPage.classList.add('remove')
-//   setTimeout(() => {
-//     LoadingPage.classList.add('remove');
-//     MainBodyPage.classList.remove('remove')
-//     MainBodyPage.classList.add('show')
+function loadingPageDisappears() {
+  MainBodyPage.classList.add('remove')
+  setTimeout(() => {
+    LoadingPage.classList.add('remove');
+    MainBodyPage.classList.remove('remove')
+    MainBodyPage.classList.add('show')
 
-//   }, 5000);
+  }, 5000);
 
-// }
+}
 
-// loadingPageDisappears();
+loadingPageDisappears();
 
 // slide Menu Canvas open and close toggle icon
 
@@ -1017,73 +1017,73 @@ setTimeout(() => {
 
 // hacking effect 
 
-// var intervalID = window.setInterval(updateScreen, 550);
-// var c = document.getElementById("console");
+var intervalID = window.setInterval(updateScreen, 550);
+var c = document.getElementById("console");
 
-// var txt3 = [
-//   "FORCE: XX0022. ENCYPT://000.222.2345",
-//   "TRYPASS: ********* AUTH CODE: ALPHA GAMMA: 1___ PRIORITY 1",
-//   "RETRY: LouisCarterjr.com",
-//   "Login: Welcome to my World!",
-//   "Z:> PROGRAMMER/DEVELOPER/UX DESIGNER/GAMER/ EXECUTE -READY YES = 1",
-//   "================================================",
-//   "Priority 1 // local / scanning...",
-//   "scanning ports...",
-//   "BACKDOOR FOUND (23.45.23.12.00000000)",
-//   "BACKDOOR FOUND (13.66.23.12.00110000)",
-//   "BACKDOOR FOUND (13.66.23.12.00110044)",
-//   "...",
-//   "Louis Carter Jr Successful Infiltration",
-//   "BRUTE.EXE -r -z",
-//   "...locating vulnerabilities...",
-//   "...vulnerabilities found...",
-//   "MCP/> DEPLOY CLU",
-//   "SCAN: __ 0100.0000.0554.0080",
-//   "SCAN: __ 0020.0000.0553.0080",
-//   "SCAN: __ 0001.0000.0554.0550",
-//   "SCAN: __ 0012.0000.0553.0030",
-//   "SCAN: __ 0100.0000.0554.0080",
-//   "SCAN: __ 0020.0000.0553.0080",
-//   "cat << 'EOF' > kali-root/etc/profile",
-//   "chmod +x kali-root/second-stage",
-//   "LANG=C chroot kali-root /second-stage",
-//   "umount kali-root/dev/pts",
-//   "CComQIPtr<IHTMLDOCUMENT2 &IID_IHTMLDocument2> spHTML(spDisp);",
+var txt3 = [
+  "FORCE: XX0022. ENCYPT://000.222.2345",
+  "TRYPASS: ********* AUTH CODE: ALPHA GAMMA: 1___ PRIORITY 1",
+  "RETRY: LouisCarterjr.com",
+  "Login: Welcome to my World!",
+  "Z:> PROGRAMMER/DEVELOPER/UX DESIGNER/GAMER/ EXECUTE -READY YES = 1",
+  "================================================",
+  "Priority 1 // local / scanning...",
+  "scanning ports...",
+  "BACKDOOR FOUND (23.45.23.12.00000000)",
+  "BACKDOOR FOUND (13.66.23.12.00110000)",
+  "BACKDOOR FOUND (13.66.23.12.00110044)",
+  "...",
+  "Louis Carter Jr Successful Infiltration",
+  "BRUTE.EXE -r -z",
+  "...locating vulnerabilities...",
+  "...vulnerabilities found...",
+  "MCP/> DEPLOY CLU",
+  "SCAN: __ 0100.0000.0554.0080",
+  "SCAN: __ 0020.0000.0553.0080",
+  "SCAN: __ 0001.0000.0554.0550",
+  "SCAN: __ 0012.0000.0553.0030",
+  "SCAN: __ 0100.0000.0554.0080",
+  "SCAN: __ 0020.0000.0553.0080",
+  "cat << 'EOF' > kali-root/etc/profile",
+  "chmod +x kali-root/second-stage",
+  "LANG=C chroot kali-root /second-stage",
+  "umount kali-root/dev/pts",
+  "CComQIPtr<IHTMLDOCUMENT2 &IID_IHTMLDocument2> spHTML(spDisp);",
 
 
-// ]
+]
 
-// var docfrag = document.createDocumentFragment();
+var docfrag = document.createDocumentFragment();
 
-// function updateScreen() {
+function updateScreen() {
 
-//   txt3.push(txt3.shift());
+  txt3.push(txt3.shift());
 
-//   txt3.forEach(function(e) {
-//     var p = document.createElement("p");
-//     p.textContent = e;
-//     docfrag.appendChild(p);
-//   });
+  txt3.forEach(function(e) {
+    var p = document.createElement("p");
+    p.textContent = e;
+    docfrag.appendChild(p);
+  });
 
-//   while (c.firstChild) {
-//     c.removeChild(c.firstChild);
-//   }
-//   c.appendChild(docfrag);
+  while (c.firstChild) {
+    c.removeChild(c.firstChild);
+  }
+  c.appendChild(docfrag);
 
-// }
-// var redBtn = document.getElementById('redBtn');
-// var greenBtn = document.getElementById('greenBtn');
+}
+var redBtn = document.getElementById('redBtn');
+var greenBtn = document.getElementById('greenBtn');
 
-// function waringBTN() {
-//   greenBtn.classList.add('remove');
-//   setTimeout(() => {
-//     redBtn.classList.add("remove");
-//     greenBtn.classList.remove('remove');
-//      greenBtn.classList.add("show");
-//   }, 4000);
-// };
+function waringBTN() {
+  greenBtn.classList.add('remove');
+  setTimeout(() => {
+    redBtn.classList.add("remove");
+    greenBtn.classList.remove('remove');
+     greenBtn.classList.add("show");
+  }, 4000);
+};
 
-// waringBTN();
+waringBTN();
 
 // glitch transition 
 
