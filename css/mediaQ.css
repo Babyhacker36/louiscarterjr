@@ -1737,7 +1737,7 @@
     #webTitle7,
     #webTitle8 {
         position: relative;
-        left: 0px;
+        left: 70px;
     }
 /* position of web titles  */
     #hoverBoxChild4,
@@ -1745,7 +1745,7 @@
     #hoverBoxChild11,
     #hoverBoxChild15 {
         position: relative;
-        top: 40px;
+        top: -200px;
     }
 
    .divbox p {
@@ -1874,7 +1874,7 @@
        /* education section  */
 
   .educationRow {
-        margin-top: 70px;
+        margin-top: 30px;
        }
 
        .educationRow p {
